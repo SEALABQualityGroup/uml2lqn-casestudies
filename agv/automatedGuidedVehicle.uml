@@ -227,6 +227,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600241078746_911336_5044" name="" visibility="public" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600241078745_735593_5043" name="" visibility="public" value="1"/>
         </ownedAttribute>
+        <deployment xmi:id="_9FL4IP8xEeqEA6QT3zT36g" name="supervisory-system" client="_19_0_4_6590219_1600241078713_409393_5002"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078715_165554_5004" name="vehicle-control" visibility="public" fileName="">
         <manifestation xmi:id="_19_0_4_6590219_1600261610045_106534_5325" name="" visibility="public" client="_19_0_4_6590219_1600241078715_165554_5004" supplier="_19_0_4_6590219_1600245797378_884043_6867" utilizedElement="_19_0_4_6590219_1600245797378_884043_6867"/>
@@ -255,6 +256,9 @@
         <deployment xmi:id="_19_0_4_6590219_1600243569468_767125_6725" name="" visibility="public" client="_19_0_4_6590219_1600243475450_110908_6650" supplier="_19_0_4_6590219_1600241078724_358285_5011" deployedArtifact="_19_0_4_6590219_1600241078724_358285_5011"/>
       </packagedElement>
       <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_6590219_1600243493711_481751_6681" name="ds_communication" visibility="public" memberEnd="_19_0_4_6590219_1600243493711_750896_6682 _19_0_4_6590219_1600243493712_82966_6683"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_GOYRQP8yEeqEA6QT3zT36g" name="supervisory-system" fileName="supervisory-system">
+        <manifestation xmi:id="_JVXQUP8yEeqEA6QT3zT36g" name="supevisorry-system" client="_GOYRQP8yEeqEA6QT3zT36g" supplier="_19_0_4_6590219_1600245797382_290695_6869" utilizedElement="_19_0_4_6590219_1600245797382_290695_6869"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_9pXDUP1cEeqMGawighkWzw">
       <eAnnotations xmi:id="_9pZfkP1cEeqMGawighkWzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
