@@ -343,6 +343,7 @@
   <GQAM:GaStep xmi:id="_Mtyr0P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600250083304_896803_7468" base_Message="_19_0_4_6590219_1600250083304_896803_7468">
     <execTime>0.423</execTime>
     <msgSize>10.0</msgSize>
+    <prob>0.2</prob>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_ODDOkP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600250367513_158011_7513" base_Message="_19_0_4_6590219_1600250367513_158011_7513">
     <execTime>0.159</execTime>
@@ -371,6 +372,7 @@
   <GQAM:GaStep xmi:id="_o0po0P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600257933119_540863_5186" base_Message="_19_0_4_6590219_1600257933119_540863_5186">
     <execTime>0.358</execTime>
     <msgSize>6.0</msgSize>
+    <prob>0.8</prob>
   </GQAM:GaStep>
   <GQAM:GaScenario xmi:id="_ZirTkP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600249243178_359082_7214" root="_Mtyr0P1dEeqMGawighkWzw"/>
   <GQAM:GaScenario xmi:id="_tdL6MP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600249297165_15614_7230" root="_o0po0P1dEeqMGawighkWzw"/>
