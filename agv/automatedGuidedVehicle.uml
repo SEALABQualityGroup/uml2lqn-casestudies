@@ -343,29 +343,39 @@
   </uml:Model>
   <GQAM:GaStep xmi:id="_Mtyr0P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600250083304_896803_7468" base_Message="_19_0_4_6590219_1600250083304_896803_7468">
     <execTime>0.423</execTime>
+    <msgSize>10.0</msgSize>
+    <prob>0.2</prob>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_ODDOkP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600250367513_158011_7513" base_Message="_19_0_4_6590219_1600250367513_158011_7513">
     <execTime>0.159</execTime>
+    <msgSize>6.0</msgSize>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_RJMgIP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600251313933_463776_7604" base_Message="_19_0_4_6590219_1600251313933_463776_7604">
     <execTime>0.5</execTime>
+    <msgSize>6.0</msgSize>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_TRRm8P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600251851239_997807_7708" base_Message="_19_0_4_6590219_1600251851239_997807_7708">
     <execTime>0.96</execTime>
+    <msgSize>6.0</msgSize>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_UlMF4P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600252725769_439098_7787" base_Message="_19_0_4_6590219_1600252725769_439098_7787">
     <execTime>0.741</execTime>
+    <msgSize>22.0</msgSize>
   </GQAM:GaStep>
-  <GQAM:GaScenario xmi:id="_ZirTkP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600249243178_359082_7214" root="_Mtyr0P1dEeqMGawighkWzw"/>
   <GQAM:GaStep xmi:id="_mS_kYP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600259172180_605274_5274" base_Message="_19_0_4_6590219_1600259172180_605274_5274">
     <execTime>0.742</execTime>
+    <msgSize>32.0</msgSize>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_nvglsP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600258329886_448742_5224" base_Message="_19_0_4_6590219_1600258329886_448742_5224">
     <execTime>0.654</execTime>
+    <msgSize>8.0</msgSize>
   </GQAM:GaStep>
   <GQAM:GaStep xmi:id="_o0po0P1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600257933119_540863_5186" base_Message="_19_0_4_6590219_1600257933119_540863_5186">
     <execTime>0.358</execTime>
+    <msgSize>6.0</msgSize>
+    <prob>0.8</prob>
   </GQAM:GaStep>
+  <GQAM:GaScenario xmi:id="_ZirTkP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600249243178_359082_7214" root="_Mtyr0P1dEeqMGawighkWzw"/>
   <GQAM:GaScenario xmi:id="_tdL6MP1dEeqMGawighkWzw" base_NamedElement="_19_0_4_6590219_1600249297165_15614_7230" root="_o0po0P1dEeqMGawighkWzw"/>
   <GQAM:GaExecHost xmi:id="_7owBAP1dEeqMGawighkWzw" base_Classifier="_19_0_4_6590219_1600241078711_531131_5001"/>
   <GQAM:GaExecHost xmi:id="_9XVpwP1dEeqMGawighkWzw" base_Classifier="_19_0_4_6590219_1600241078713_409393_5002"/>
@@ -373,16 +383,65 @@
   <GQAM:GaExecHost xmi:id="_Bj3UkP1eEeqMGawighkWzw" base_Classifier="_19_0_4_6590219_1600241078729_388803_5016"/>
   <GQAM:GaExecHost xmi:id="_C6yEMP1eEeqMGawighkWzw" base_Classifier="_19_0_4_6590219_1600241078730_164487_5017"/>
   <GQAM:GaExecHost xmi:id="_EUlIsP1eEeqMGawighkWzw" base_Classifier="_19_0_4_6590219_1600241078731_285080_5018"/>
-  <Core:DaComponent xmi:id="_4mNKIP1qEeq5ep-Xt-9NFg" base_Classifier="_19_0_4_6590219_1600245797378_884043_6867">
+  <GQAM:GaExecHost xmi:id="_u6f_kP3HEeq5ep-Xt-9NFg" base_Classifier="_19_0_4_6590219_1600245797378_884043_6867"/>
+  <Core:DaComponent xmi:id="_yddjMvwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797381_285333_6868">
     <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9NFg">
+      <occurrenceProb>0.02</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_yddjM_wKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797378_884043_6867">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9nFg">
+      <occurrenceProb>0.04</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_yddjNPwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797382_290695_6869">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9Nfg">
+      <occurrenceProb>0.07</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_yddjNfwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797386_302893_6871">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9nfg">
+      <occurrenceProb>0.12</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_ydeKQPwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797388_222_6872">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9NFG">
+      <occurrenceProb>0.02</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_ydeKQfwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797390_56868_6873">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9NfG">
       <occurrenceProb>0.18</occurrenceProb>
     </failure>
   </Core:DaComponent>
-  <Core:DaComponent xmi:id="_AH_gkP1rEeq5ep-Xt-9NFg" base_Classifier="_19_0_4_6590219_1600245797381_285333_6868">
-    <failure xmi:id="_Ek4ioP1rEeq5ep-Xt-9NFg">
-      <occurrenceProb>0.25</occurrenceProb>
+  <Core:DaComponent xmi:id="_ydeKQvwKEeqyabr40DzALg" base_Classifier="_19_0_4_6590219_1600245797384_535877_6870">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9nFG">
+      <occurrenceProb>0.15</occurrenceProb>
     </failure>
   </Core:DaComponent>
-  <GQAM:GaExecHost xmi:id="_u6f_kP3HEeq5ep-Xt-9NFg" base_Classifier="_19_0_4_6590219_1600245797378_884043_6867"/>
-  <GQAM:GaExecHost xmi:id="_Xfi6MAJrEeuUuuSJd4tbGg" base_Classifier="_rMAn8AIiEeuG2OLa1I3HiQ"/>
+  <Core:DaConnector xmi:id="_ydeKQ_wKEeqyabr40DzALg" base_Association="_19_0_3_28c0145_1600782000365_779874_5421">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-9nfG">
+      <occurrenceProb>0.02</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydeKRPwKEeqyabr40DzALg" base_Association="_19_0_3_28c0145_1600782288278_672168_5437">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-8NFg">
+      <occurrenceProb>0.04</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydeKRfwKEeqyabr40DzALg" base_Association="_19_0_3_28c0145_1600782291980_665854_5450">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-7NFg">
+      <occurrenceProb>0.4</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydexUPwKEeqyabr40DzALg" base_Association="_19_0_4_6590219_1600241078719_203484_5007">
+    <failure xmi:id="_7KJGgP1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.08</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydyxUPwKEeqyabr40DzALg" base_Association="_19_0_4_6590219_1600243493711_481751_6681">
+    <failure xmi:id="_7KJGyP1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.08</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
 </xmi:XMI>
