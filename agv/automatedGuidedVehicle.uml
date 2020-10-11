@@ -436,6 +436,26 @@
       <occurrenceProb>0.08</occurrenceProb>
     </failure>
   </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydyxURwKEeqyabr40DzALg" base_Association="_auJR4AIjEeuG2OLa1I3HiQ">
+    <failure xmi:id="_7KJGyR1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.06</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydyxUTwKEeqyabr40DzALg" base_Association="_8zi0cAIkEeuG2OLa1I3HiQ">
+    <failure xmi:id="_7KJGyT1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.04</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydyxUZwKEeqyabr40DzALg" base_Association="_cwIs4AIlEeuG2OLa1I3HiQ">
+    <failure xmi:id="_7KJGyZ1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.03</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
+  <Core:DaConnector xmi:id="_ydyxUGwKEeqyabr40DzALg" base_Association="_ODwikAImEeuG2OLa1I3HiQ">
+    <failure xmi:id="_7KJGyG1qEeq5ep-Xt-6NFg">
+      <occurrenceProb>0.07</occurrenceProb>
+    </failure>
+  </Core:DaConnector>
   <GQAM:GaExecHost xmi:id="_9BbygAMAEeuSkepNf6JYrQ" base_Classifier="_rMAn8AIiEeuG2OLa1I3HiQ">
     <utilization>0.125663</utilization>
   </GQAM:GaExecHost>
