@@ -4,61 +4,61 @@
     <packageImport xmi:id="_GsWDkP1ZEeqXCcKbME-iLw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600240731103_372920_4795" name="static_view" visibility="public" URI="">
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797378_884043_6867" name="vehicle-control" visibility="public">
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774186658_569488_5235" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774186647_489855_5234" contract="_19_0_3_28c0145_1600774186647_489855_5234"/>
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774194108_428571_5239" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774194099_942739_5238" contract="_19_0_3_28c0145_1600774194099_942739_5238"/>
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774180654_996135_5231" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774180643_753305_5230" contract="_19_0_3_28c0145_1600774180643_753305_5230"/>
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774158322_105856_5227" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774158311_503267_5226" contract="_19_0_3_28c0145_1600774158311_503267_5226"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600240731103_372920_4795" name="static_view" URI="">
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797378_884043_6867" name="vehicle-control">
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774186658_569488_5235" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774186647_489855_5234" contract="_19_0_3_28c0145_1600774186647_489855_5234"/>
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774194108_428571_5239" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774194099_942739_5238" contract="_19_0_3_28c0145_1600774194099_942739_5238"/>
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774180654_996135_5231" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774180643_753305_5230" contract="_19_0_3_28c0145_1600774180643_753305_5230"/>
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774158322_105856_5227" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774158311_503267_5226" contract="_19_0_3_28c0145_1600774158311_503267_5226"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797394_491286_6878" name="expired" visibility="public"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797396_374983_6879" name="move" visibility="public"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797397_494263_6880" name="passed" visibility="public"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797399_329421_6881" name="arrived" visibility="public"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600245797391_54139_6874" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797381_285333_6868"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247886630_866454_7117" name="control_use_arm" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797384_535877_6870"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247890760_695915_7123" name="control_use_status" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797381_285333_6868"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247904444_825274_7129" name="control_use_motor" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797386_302893_6871"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247915150_216686_7135" name="control_use_display" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797388_222_6872"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774306960_449208_5247" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774296193_492553_5243"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774328934_839578_5257" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774318206_764306_5253"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774381216_463176_5273" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774371117_230820_5269"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774411900_795781_5283" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774399592_355878_5279"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774431183_896204_5293" name="" visibility="public" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774422987_333854_5289"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600245797391_54139_6874" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797381_285333_6868"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247886630_866454_7117" name="control_use_arm" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797384_535877_6870"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247890760_695915_7123" name="control_use_status" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797381_285333_6868"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247904444_825274_7129" name="control_use_motor" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797386_302893_6871"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_6590219_1600247915150_216686_7135" name="control_use_display" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_4_6590219_1600245797388_222_6872"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774306960_449208_5247" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774296193_492553_5243"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774328934_839578_5257" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774318206_764306_5253"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774381216_463176_5273" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774371117_230820_5269"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774411900_795781_5283" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774399592_355878_5279"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_3_28c0145_1600774431183_896204_5293" name="" client="_19_0_4_6590219_1600245797378_884043_6867" supplier="_19_0_3_28c0145_1600774422987_333854_5289"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797381_285333_6868" name="vehicle-status" visibility="public">
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774296216_558061_5244" name="" visibility="public" client="_19_0_4_6590219_1600245797381_285333_6868" supplier="_19_0_3_28c0145_1600774296193_492553_5243" contract="_19_0_3_28c0145_1600774296193_492553_5243"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797381_285333_6868" name="vehicle-status">
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774296216_558061_5244" name="" client="_19_0_4_6590219_1600245797381_285333_6868" supplier="_19_0_3_28c0145_1600774296193_492553_5243" contract="_19_0_3_28c0145_1600774296193_492553_5243"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797402_412167_6885" name="get_status" visibility="public"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797382_290695_6869" name="supervisory-system" visibility="public"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797384_535877_6870" name="robot-arm" visibility="public">
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774423009_692384_5290" name="" visibility="public" client="_19_0_4_6590219_1600245797384_535877_6870" supplier="_19_0_3_28c0145_1600774422987_333854_5289" contract="_19_0_3_28c0145_1600774422987_333854_5289"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797382_290695_6869" name="supervisory-system"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797384_535877_6870" name="robot-arm">
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774423009_692384_5290" name="" client="_19_0_4_6590219_1600245797384_535877_6870" supplier="_19_0_3_28c0145_1600774422987_333854_5289" contract="_19_0_3_28c0145_1600774422987_333854_5289"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797403_822464_6887" name="load" visibility="public"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797404_74121_6888" name="unload" visibility="public"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797386_302893_6871" name="motor" visibility="public">
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774371125_668087_5270" name="" visibility="public" client="_19_0_4_6590219_1600245797386_302893_6871" supplier="_19_0_3_28c0145_1600774371117_230820_5269" contract="_19_0_3_28c0145_1600774371117_230820_5269"/>
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774399596_229105_5280" name="" visibility="public" client="_19_0_4_6590219_1600245797386_302893_6871" supplier="_19_0_3_28c0145_1600774399592_355878_5279" contract="_19_0_3_28c0145_1600774399592_355878_5279"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797386_302893_6871" name="motor">
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774371125_668087_5270" name="" client="_19_0_4_6590219_1600245797386_302893_6871" supplier="_19_0_3_28c0145_1600774371117_230820_5269" contract="_19_0_3_28c0145_1600774371117_230820_5269"/>
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774399596_229105_5280" name="" client="_19_0_4_6590219_1600245797386_302893_6871" supplier="_19_0_3_28c0145_1600774399592_355878_5279" contract="_19_0_3_28c0145_1600774399592_355878_5279"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797405_630091_6890" name="start_motor" visibility="public"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797406_509400_6891" name="stop_motor" visibility="public"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797388_222_6872" name="display-system" visibility="public">
-        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774318211_611906_5254" name="" visibility="public" client="_19_0_4_6590219_1600245797388_222_6872" supplier="_19_0_3_28c0145_1600774318206_764306_5253" contract="_19_0_3_28c0145_1600774318206_764306_5253"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797388_222_6872" name="display-system">
+        <interfaceRealization xmi:id="_19_0_3_28c0145_1600774318211_611906_5254" name="" client="_19_0_4_6590219_1600245797388_222_6872" supplier="_19_0_3_28c0145_1600774318206_764306_5253" contract="_19_0_3_28c0145_1600774318206_764306_5253"/>
         <ownedOperation xmi:id="_19_0_4_6590219_1600245797407_532783_6893" name="display_status" visibility="public"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797390_56868_6873" name="arrival-sensor" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774158311_503267_5226" name="expired" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774180643_753305_5230" name="move" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774186647_489855_5234" name="passed" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774194099_942739_5238" name="arrived" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774296193_492553_5243" name="get_status" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774318206_764306_5253" name="display_status" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774371117_230820_5269" name="start_motor" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774399592_355878_5279" name="stop_motor" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774422987_333854_5289" name="load" visibility="public"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_6590219_1600245797390_56868_6873" name="arrival-sensor"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774158311_503267_5226" name="expired"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774180643_753305_5230" name="move"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774186647_489855_5234" name="passed"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774194099_942739_5238" name="arrived"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774296193_492553_5243" name="get_status"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774318206_764306_5253" name="display_status"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774371117_230820_5269" name="start_motor"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774399592_355878_5279" name="stop_motor"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_3_28c0145_1600774422987_333854_5289" name="load"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600240737512_351018_4796" name="dynamic_view" visibility="public" URI="">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_6590219_1600249243178_359082_7214" name="MoveToStation" visibility="public" classifierBehavior="_19_0_4_6590219_1600249641730_918620_7389">
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_6590219_1600249641730_918620_7389" name="MoveToStation" visibility="public" isReentrant="true">
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600240737512_351018_4796" name="dynamic_view" URI="">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_6590219_1600249243178_359082_7214" name="MoveToStation" classifierBehavior="_19_0_4_6590219_1600249641730_918620_7389">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_6590219_1600249641730_918620_7389" name="MoveToStation" isReentrant="true">
           <ownedAttribute xmi:id="_19_0_4_6590219_1600249648846_392346_7432" name="supervisory-system_property" visibility="private" type="_19_0_4_6590219_1600249400587_624520_7246"/>
           <ownedAttribute xmi:id="_19_0_4_6590219_1600250007192_755794_7455" name="vehicle-control_property" visibility="private" type="_19_0_4_6590219_1600245797378_884043_6867"/>
           <ownedAttribute xmi:id="_19_0_4_6590219_1600250333873_633126_7500" name="motor_property" visibility="private" type="_19_0_4_6590219_1600245797386_302893_6871"/>
@@ -108,8 +108,8 @@
           <message xmi:id="_19_0_4_6590219_1600262389467_556810_5332" name="arrived_reply" visibility="public" messageSort="reply" receiveEvent="_19_0_4_6590219_1600262389472_159481_5334" sendEvent="_19_0_4_6590219_1600262389470_918257_5333"/>
         </ownedBehavior>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_6590219_1600249297165_15614_7230" name="SendVehicleStatus" visibility="public" classifierBehavior="_19_0_4_6590219_1600256558075_414330_7846">
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_6590219_1600256558075_414330_7846" name="SendVehicleStatus" visibility="public" isReentrant="true">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_6590219_1600249297165_15614_7230" name="SendVehicleStatus" classifierBehavior="_19_0_4_6590219_1600256558075_414330_7846">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_6590219_1600256558075_414330_7846" name="SendVehicleStatus" isReentrant="true">
           <ownedAttribute xmi:id="_19_0_4_6590219_1600257737355_731345_5150" name="clock_property" visibility="private" type="_19_0_4_6590219_1600249483136_787135_7292"/>
           <ownedAttribute xmi:id="_19_0_4_6590219_1600257847991_812956_5173" name="vehicle_control_property" visibility="private" type="_19_0_4_6590219_1600245797378_884043_6867"/>
           <ownedAttribute xmi:id="_19_0_4_6590219_1600258145478_185459_5211" name="vehicle-status_control" visibility="private" type="_19_0_4_6590219_1600245797381_285333_6868"/>
@@ -142,104 +142,104 @@
           <message xmi:id="_19_0_4_6590219_1600259308666_984830_5294" name="expired_reply" visibility="public" messageSort="reply" receiveEvent="_19_0_4_6590219_1600259308670_360229_5296" sendEvent="_19_0_4_6590219_1600259308669_603451_5295"/>
         </ownedBehavior>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249400587_624520_7246" name="SupervisorySystem" visibility="public"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249440148_465572_7269" name="DisplaySystem" visibility="public"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249483136_787135_7292" name="Clock" visibility="public"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249506596_400411_7315" name="ArrivalSensor" visibility="public"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249558312_634962_7339" name="" visibility="public" memberEnd="_19_0_4_6590219_1600249558312_453062_7340 _19_0_4_6590219_1600249558313_338107_7341" navigableOwnedEnd="_19_0_4_6590219_1600249558312_453062_7340 _19_0_4_6590219_1600249558313_338107_7341">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249400587_624520_7246" name="SupervisorySystem"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249440148_465572_7269" name="DisplaySystem"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249483136_787135_7292" name="Clock"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1600249506596_400411_7315" name="ArrivalSensor"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249558312_634962_7339" name="" memberEnd="_19_0_4_6590219_1600249558312_453062_7340 _19_0_4_6590219_1600249558313_338107_7341" navigableOwnedEnd="_19_0_4_6590219_1600249558312_453062_7340 _19_0_4_6590219_1600249558313_338107_7341">
         <ownedEnd xmi:id="_19_0_4_6590219_1600249558312_453062_7340" name="" visibility="private" type="_19_0_4_6590219_1600249243178_359082_7214" association="_19_0_4_6590219_1600249558312_634962_7339"/>
         <ownedEnd xmi:id="_19_0_4_6590219_1600249558313_338107_7341" name="" visibility="private" type="_19_0_4_6590219_1600249400587_624520_7246" association="_19_0_4_6590219_1600249558312_634962_7339"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249572622_856837_7352" name="" visibility="public" memberEnd="_19_0_4_6590219_1600249572623_20547_7353 _19_0_4_6590219_1600249572623_654501_7354" navigableOwnedEnd="_19_0_4_6590219_1600249572623_20547_7353 _19_0_4_6590219_1600249572623_654501_7354">
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249572622_856837_7352" name="" memberEnd="_19_0_4_6590219_1600249572623_20547_7353 _19_0_4_6590219_1600249572623_654501_7354" navigableOwnedEnd="_19_0_4_6590219_1600249572623_20547_7353 _19_0_4_6590219_1600249572623_654501_7354">
         <ownedEnd xmi:id="_19_0_4_6590219_1600249572623_20547_7353" name="" visibility="private" type="_19_0_4_6590219_1600249297165_15614_7230" association="_19_0_4_6590219_1600249572622_856837_7352"/>
         <ownedEnd xmi:id="_19_0_4_6590219_1600249572623_654501_7354" name="" visibility="private" type="_19_0_4_6590219_1600249440148_465572_7269" association="_19_0_4_6590219_1600249572622_856837_7352"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249597047_145988_7365" name="" visibility="public" memberEnd="_19_0_4_6590219_1600249597048_668689_7366 _19_0_4_6590219_1600249597048_912186_7367" navigableOwnedEnd="_19_0_4_6590219_1600249597048_668689_7366 _19_0_4_6590219_1600249597048_912186_7367">
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249597047_145988_7365" name="" memberEnd="_19_0_4_6590219_1600249597048_668689_7366 _19_0_4_6590219_1600249597048_912186_7367" navigableOwnedEnd="_19_0_4_6590219_1600249597048_668689_7366 _19_0_4_6590219_1600249597048_912186_7367">
         <ownedEnd xmi:id="_19_0_4_6590219_1600249597048_668689_7366" name="" visibility="private" type="_19_0_4_6590219_1600249297165_15614_7230" association="_19_0_4_6590219_1600249597047_145988_7365"/>
         <ownedEnd xmi:id="_19_0_4_6590219_1600249597048_912186_7367" name="" visibility="private" type="_19_0_4_6590219_1600249483136_787135_7292" association="_19_0_4_6590219_1600249597047_145988_7365"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249622467_548888_7378" name="" visibility="public" memberEnd="_19_0_4_6590219_1600249622467_82000_7379 _19_0_4_6590219_1600249622468_504234_7380" navigableOwnedEnd="_19_0_4_6590219_1600249622467_82000_7379 _19_0_4_6590219_1600249622468_504234_7380">
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_6590219_1600249622467_548888_7378" name="" memberEnd="_19_0_4_6590219_1600249622467_82000_7379 _19_0_4_6590219_1600249622468_504234_7380" navigableOwnedEnd="_19_0_4_6590219_1600249622467_82000_7379 _19_0_4_6590219_1600249622468_504234_7380">
         <ownedEnd xmi:id="_19_0_4_6590219_1600249622467_82000_7379" name="" visibility="private" type="_19_0_4_6590219_1600249243178_359082_7214" association="_19_0_4_6590219_1600249622467_548888_7378"/>
         <ownedEnd xmi:id="_19_0_4_6590219_1600249622468_504234_7380" name="" visibility="private" type="_19_0_4_6590219_1600249506596_400411_7315" association="_19_0_4_6590219_1600249622467_548888_7378"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600241078709_109433_5000" name="deployment_view" visibility="public" URI="">
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078711_531131_5001" name="VehicleController" visibility="public">
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1600241078709_109433_5000" name="deployment_view" URI="">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078711_531131_5001" name="VehicleController">
         <ownedAttribute xmi:id="_19_0_4_6590219_1600241078728_746893_5015" name="ss" type="_19_0_4_6590219_1600241078713_409393_5002" association="_19_0_4_6590219_1600241078719_203484_5007">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600241078742_587598_5034" name="" visibility="public" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600241078741_183421_5033" name="" visibility="public" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600241078742_587598_5034" name="" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600241078741_183421_5033" name="" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_19_0_4_6590219_1600243493712_82966_6683" name="ds" visibility="public" type="_19_0_4_6590219_1600243475450_110908_6650" association="_19_0_4_6590219_1600243493711_481751_6681">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600243505379_728773_6694" name="" visibility="public" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600243505379_930432_6695" name="" visibility="public" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600243505379_728773_6694" name="" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600243505379_930432_6695" name="" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_UzsQMAIkEeuG2OLa1I3HiQ" name="motor_vehicle-controlelr" visibility="private" type="_19_0_4_6590219_1600241078729_388803_5016" association="_auJR4AIjEeuG2OLa1I3HiQ"/>
         <ownedAttribute xmi:id="_xHvUoAIkEeuG2OLa1I3HiQ" name="robot-arm_vehicle-controller" visibility="private" type="_19_0_4_6590219_1600241078730_164487_5017" association="_8zi0cAIkEeuG2OLa1I3HiQ"/>
         <ownedAttribute xmi:id="_QMEIUAIlEeuG2OLa1I3HiQ" name="vehicle-status_vehicle-controller" visibility="private" type="_rMAn8AIiEeuG2OLa1I3HiQ" association="_cwIs4AIlEeuG2OLa1I3HiQ"/>
         <ownedAttribute xmi:id="_JUKm8AImEeuG2OLa1I3HiQ" name="arrival-sensor_vehicle-controller" visibility="private" type="_19_0_4_6590219_1600241078731_285080_5018" association="_ODwikAImEeuG2OLa1I3HiQ"/>
-        <deployment xmi:id="_19_0_4_6590219_1600241078727_737834_5013" name="" visibility="public" client="_19_0_4_6590219_1600241078711_531131_5001" supplier="_19_0_4_6590219_1600241078715_165554_5004" deployedArtifact="_19_0_4_6590219_1600241078715_165554_5004"/>
+        <deployment xmi:id="_19_0_4_6590219_1600241078727_737834_5013" name="" client="_19_0_4_6590219_1600241078711_531131_5001" supplier="_19_0_4_6590219_1600241078715_165554_5004" deployedArtifact="_19_0_4_6590219_1600241078715_165554_5004"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078713_409393_5002" name="SupervisorySystem" visibility="public">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078713_409393_5002" name="SupervisorySystem">
         <ownedAttribute xmi:id="_19_0_4_6590219_1600241078733_475531_5020" name="" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_19_0_4_6590219_1600241078719_203484_5007">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600241078746_911336_5044" name="" visibility="public" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600241078745_735593_5043" name="" visibility="public" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600241078746_911336_5044" name="" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600241078745_735593_5043" name="" value="1"/>
         </ownedAttribute>
         <deployment xmi:id="_h0yxIAL3EeuSkepNf6JYrQ" name="supervisory-system" client="_19_0_4_6590219_1600241078713_409393_5002" supplier="_GOYRQP8yEeqEA6QT3zT36g" deployedArtifact="_GOYRQP8yEeqEA6QT3zT36g"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078715_165554_5004" name="vehicle-control" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261610045_106534_5325" name="" visibility="public" client="_19_0_4_6590219_1600241078715_165554_5004" supplier="_19_0_4_6590219_1600245797378_884043_6867" utilizedElement="_19_0_4_6590219_1600245797378_884043_6867"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078715_165554_5004" name="vehicle-control" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261610045_106534_5325" name="" client="_19_0_4_6590219_1600241078715_165554_5004" supplier="_19_0_4_6590219_1600245797378_884043_6867" utilizedElement="_19_0_4_6590219_1600245797378_884043_6867"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078717_696919_5005" name="vehicle-status" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261626601_319586_5326" name="" visibility="public" client="_19_0_4_6590219_1600241078717_696919_5005" supplier="_19_0_4_6590219_1600245797381_285333_6868" utilizedElement="_19_0_4_6590219_1600245797381_285333_6868"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078717_696919_5005" name="vehicle-status" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261626601_319586_5326" name="" client="_19_0_4_6590219_1600241078717_696919_5005" supplier="_19_0_4_6590219_1600245797381_285333_6868" utilizedElement="_19_0_4_6590219_1600245797381_285333_6868"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_6590219_1600241078719_203484_5007" name="ss_communication" visibility="public" memberEnd="_19_0_4_6590219_1600241078728_746893_5015 _19_0_4_6590219_1600241078733_475531_5020"/>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078720_225380_5008" name="arrival-sensor" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261596138_895025_5324" name="" visibility="public" client="_19_0_4_6590219_1600241078720_225380_5008" supplier="_19_0_4_6590219_1600245797390_56868_6873" utilizedElement="_19_0_4_6590219_1600245797390_56868_6873"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_6590219_1600241078719_203484_5007" name="ss_communication" memberEnd="_19_0_4_6590219_1600241078728_746893_5015 _19_0_4_6590219_1600241078733_475531_5020"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078720_225380_5008" name="arrival-sensor" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261596138_895025_5324" name="" client="_19_0_4_6590219_1600241078720_225380_5008" supplier="_19_0_4_6590219_1600245797390_56868_6873" utilizedElement="_19_0_4_6590219_1600245797390_56868_6873"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078721_779763_5009" name="robot-arm" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261573114_458376_5322" name="" visibility="public" client="_19_0_4_6590219_1600241078721_779763_5009" supplier="_19_0_4_6590219_1600245797384_535877_6870" utilizedElement="_19_0_4_6590219_1600245797384_535877_6870"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078721_779763_5009" name="robot-arm" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261573114_458376_5322" name="" client="_19_0_4_6590219_1600241078721_779763_5009" supplier="_19_0_4_6590219_1600245797384_535877_6870" utilizedElement="_19_0_4_6590219_1600245797384_535877_6870"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078723_611275_5010" name="motor" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261584662_717251_5323" name="" visibility="public" client="_19_0_4_6590219_1600241078723_611275_5010" supplier="_19_0_4_6590219_1600245797386_302893_6871" utilizedElement="_19_0_4_6590219_1600245797386_302893_6871"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078723_611275_5010" name="motor" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261584662_717251_5323" name="" client="_19_0_4_6590219_1600241078723_611275_5010" supplier="_19_0_4_6590219_1600245797386_302893_6871" utilizedElement="_19_0_4_6590219_1600245797386_302893_6871"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078724_358285_5011" name="display-system" visibility="public" fileName="">
-        <manifestation xmi:id="_19_0_4_6590219_1600261647520_153360_5327" name="" visibility="public" client="_19_0_4_6590219_1600241078724_358285_5011" supplier="_19_0_4_6590219_1600245797388_222_6872" utilizedElement="_19_0_4_6590219_1600245797388_222_6872"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_6590219_1600241078724_358285_5011" name="display-system" fileName="">
+        <manifestation xmi:id="_19_0_4_6590219_1600261647520_153360_5327" name="" client="_19_0_4_6590219_1600241078724_358285_5011" supplier="_19_0_4_6590219_1600245797388_222_6872" utilizedElement="_19_0_4_6590219_1600245797388_222_6872"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600243475450_110908_6650" name="DisplaySystem" visibility="public">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600243475450_110908_6650" name="DisplaySystem">
         <ownedAttribute xmi:id="_19_0_4_6590219_1600243493711_750896_6682" name="" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_19_0_4_6590219_1600243493711_481751_6681">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600243499963_260237_6690" name="" visibility="public" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600243499964_780561_6691" name="" visibility="public" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_6590219_1600243499963_260237_6690" name="" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_6590219_1600243499964_780561_6691" name="" value="1"/>
         </ownedAttribute>
-        <deployment xmi:id="_19_0_4_6590219_1600243569468_767125_6725" name="" visibility="public" client="_19_0_4_6590219_1600243475450_110908_6650" supplier="_19_0_4_6590219_1600241078724_358285_5011" deployedArtifact="_19_0_4_6590219_1600241078724_358285_5011"/>
+        <deployment xmi:id="_19_0_4_6590219_1600243569468_767125_6725" name="" client="_19_0_4_6590219_1600243475450_110908_6650" supplier="_19_0_4_6590219_1600241078724_358285_5011" deployedArtifact="_19_0_4_6590219_1600241078724_358285_5011"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_6590219_1600243493711_481751_6681" name="ds_communication" visibility="public" memberEnd="_19_0_4_6590219_1600243493711_750896_6682 _19_0_4_6590219_1600243493712_82966_6683"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_6590219_1600243493711_481751_6681" name="ds_communication" memberEnd="_19_0_4_6590219_1600243493711_750896_6682 _19_0_4_6590219_1600243493712_82966_6683"/>
       <packagedElement xmi:type="uml:Artifact" xmi:id="_GOYRQP8yEeqEA6QT3zT36g" name="supervisory-system" fileName="supervisory-system">
         <manifestation xmi:id="_JVXQUP8yEeqEA6QT3zT36g" name="supevisory-system" client="_GOYRQP8yEeqEA6QT3zT36g" supplier="_19_0_4_6590219_1600245797382_290695_6869" utilizedElement="_19_0_4_6590219_1600245797382_290695_6869"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078731_285080_5018" name="ArrivalSensor" visibility="public">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078731_285080_5018" name="ArrivalSensor">
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782288278_584401_5438" name="" visibility="private" type="_19_0_4_6590219_1600241078730_164487_5017" association="_19_0_3_28c0145_1600782288278_672168_5437"/>
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782291980_423833_5452" name="" visibility="private" type="_19_0_4_6590219_1600241078729_388803_5016" association="_19_0_3_28c0145_1600782291980_665854_5450"/>
         <ownedAttribute xmi:id="_BFKlMAImEeuG2OLa1I3HiQ" name="vehicle-controller_arrival-sensor" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_ODwikAImEeuG2OLa1I3HiQ"/>
-        <deployment xmi:id="_19_0_4_6590219_1600241078737_698173_5026" name="" visibility="public" client="_19_0_4_6590219_1600241078731_285080_5018" supplier="_19_0_4_6590219_1600241078720_225380_5008" deployedArtifact="_19_0_4_6590219_1600241078720_225380_5008"/>
+        <deployment xmi:id="_19_0_4_6590219_1600241078737_698173_5026" name="" client="_19_0_4_6590219_1600241078731_285080_5018" supplier="_19_0_4_6590219_1600241078720_225380_5008" deployedArtifact="_19_0_4_6590219_1600241078720_225380_5008"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Node" xmi:id="_rMAn8AIiEeuG2OLa1I3HiQ" name="VehicleStatus">
         <ownedAttribute xmi:id="_HkwUQAIlEeuG2OLa1I3HiQ" name="vehicle-controller_vehicle-status" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_cwIs4AIlEeuG2OLa1I3HiQ"/>
-        <deployment xmi:id="_19_0_4_6590219_1600241078726_32246_5012" name="" visibility="public" client="_19_0_4_6590219_1600241078711_531131_5001 _rMAn8AIiEeuG2OLa1I3HiQ" supplier="_19_0_4_6590219_1600241078717_696919_5005" deployedArtifact="_19_0_4_6590219_1600241078717_696919_5005"/>
+        <deployment xmi:id="_19_0_4_6590219_1600241078726_32246_5012" name="" client="_19_0_4_6590219_1600241078711_531131_5001 _rMAn8AIiEeuG2OLa1I3HiQ" supplier="_19_0_4_6590219_1600241078717_696919_5005" deployedArtifact="_19_0_4_6590219_1600241078717_696919_5005"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782000365_779874_5421" name="motor_robot-arm" visibility="public" memberEnd="_19_0_3_28c0145_1600782000366_602925_5422 _19_0_3_28c0145_1600782000366_347868_5423"/>
-      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782288278_672168_5437" name="robot-arm_arrival-sensor" visibility="public" memberEnd="_19_0_3_28c0145_1600782288278_584401_5438 _19_0_3_28c0145_1600782288278_353309_5439"/>
-      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782291980_665854_5450" name="arrival-sensor-motor" visibility="public" memberEnd="_19_0_3_28c0145_1600782291980_251924_5451 _19_0_3_28c0145_1600782291980_423833_5452"/>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078730_164487_5017" name="RobotArm" visibility="public">
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782000365_779874_5421" name="motor_robot-arm" memberEnd="_19_0_3_28c0145_1600782000366_602925_5422 _19_0_3_28c0145_1600782000366_347868_5423"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782288278_672168_5437" name="robot-arm_arrival-sensor" memberEnd="_19_0_3_28c0145_1600782288278_584401_5438 _19_0_3_28c0145_1600782288278_353309_5439"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_3_28c0145_1600782291980_665854_5450" name="arrival-sensor-motor" memberEnd="_19_0_3_28c0145_1600782291980_251924_5451 _19_0_3_28c0145_1600782291980_423833_5452"/>
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078730_164487_5017" name="RobotArm">
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782000366_347868_5423" name="" visibility="private" type="_19_0_4_6590219_1600241078729_388803_5016" association="_19_0_3_28c0145_1600782000365_779874_5421"/>
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782288278_353309_5439" name="" visibility="private" type="_19_0_4_6590219_1600241078731_285080_5018" association="_19_0_3_28c0145_1600782288278_672168_5437"/>
         <ownedAttribute xmi:id="_judmYAIkEeuG2OLa1I3HiQ" name="vehicle-controller_robot-arm" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_8zi0cAIkEeuG2OLa1I3HiQ"/>
-        <deployment xmi:id="_19_0_4_6590219_1600241078738_256254_5028" name="" visibility="public" client="_19_0_4_6590219_1600241078730_164487_5017" supplier="_19_0_4_6590219_1600241078721_779763_5009" deployedArtifact="_19_0_4_6590219_1600241078721_779763_5009"/>
+        <deployment xmi:id="_19_0_4_6590219_1600241078738_256254_5028" name="" client="_19_0_4_6590219_1600241078730_164487_5017" supplier="_19_0_4_6590219_1600241078721_779763_5009" deployedArtifact="_19_0_4_6590219_1600241078721_779763_5009"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078729_388803_5016" name="Motor" visibility="public">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_6590219_1600241078729_388803_5016" name="Motor">
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782000366_602925_5422" name="" visibility="private" type="_19_0_4_6590219_1600241078730_164487_5017" association="_19_0_3_28c0145_1600782000365_779874_5421"/>
         <ownedAttribute xmi:id="_19_0_3_28c0145_1600782291980_251924_5451" name="" visibility="private" type="_19_0_4_6590219_1600241078731_285080_5018" association="_19_0_3_28c0145_1600782291980_665854_5450"/>
         <ownedAttribute xmi:id="_-CjasAIjEeuG2OLa1I3HiQ" name="vehicle-controller_motor" visibility="private" type="_19_0_4_6590219_1600241078711_531131_5001" association="_auJR4AIjEeuG2OLa1I3HiQ"/>
-        <deployment xmi:id="_19_0_4_6590219_1600241078739_578887_5030" name="" visibility="public" client="_19_0_4_6590219_1600241078729_388803_5016" supplier="_19_0_4_6590219_1600241078723_611275_5010" deployedArtifact="_19_0_4_6590219_1600241078723_611275_5010"/>
+        <deployment xmi:id="_19_0_4_6590219_1600241078739_578887_5030" name="" client="_19_0_4_6590219_1600241078729_388803_5016" supplier="_19_0_4_6590219_1600241078723_611275_5010" deployedArtifact="_19_0_4_6590219_1600241078723_611275_5010"/>
       </packagedElement>
       <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_auJR4AIjEeuG2OLa1I3HiQ" name="motor_vehicle-controller" memberEnd="_-CjasAIjEeuG2OLa1I3HiQ _UzsQMAIkEeuG2OLa1I3HiQ"/>
       <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_8zi0cAIkEeuG2OLa1I3HiQ" name="robot-arm_vehicle-controller" memberEnd="_judmYAIkEeuG2OLa1I3HiQ _xHvUoAIkEeuG2OLa1I3HiQ"/>
