@@ -372,7 +372,7 @@
     <msgSize>59</msgSize>
     <respT>0.345</respT>
   </GQAM:GaStep>
-  <GQAM:GaStep xmi:id="_MnDgIAAaEeuEA6QT3zT36g" base_NamedElement="_19_0_3_28c0145_1601137881787_624900_5718" base_Message="_19_0_3_28c0145_1601137881787_624900_5718" prob="0.70">
+  <GQAM:GaStep xmi:id="_MnDgIAAaEeuEA6QT3zT36g" base_NamedElement="_19_0_3_28c0145_1601137881787_624900_5718" base_Message="_19_0_3_28c0145_1601137881787_624900_5718" prob="0.45">
     <execTime>0.96</execTime>
     <msgSize>45</msgSize>
     <respT>1.608</respT>
@@ -437,7 +437,7 @@
       <occurrenceProb>0.0256</occurrenceProb>
     </failure>
   </Core:DaComponent>
-  <GQAM:GaStep xmi:id="_KeqfUA_IEeuykZ9VOZO6jQ" base_NamedElement="_19_0_3_28c0145_1587023303376_354331_5423" base_Message="_19_0_3_28c0145_1587023303376_354331_5423">
+  <GQAM:GaStep xmi:id="_KeqfUA_IEeuykZ9VOZO6jQ" base_NamedElement="_19_0_3_28c0145_1587023303376_354331_5423" base_Message="_19_0_3_28c0145_1587023303376_354331_5423" prob="0.25">
     <execTime>0.789</execTime>
     <msgSize>52</msgSize>
     <respT>0.789</respT>
