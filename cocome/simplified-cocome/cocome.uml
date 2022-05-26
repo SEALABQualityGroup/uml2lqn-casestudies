@@ -444,7 +444,7 @@
     <throughput>0.07585388720830388</throughput>
     <respT>13.18324</respT>
   </GQAM:GaScenario>
-  <GQAM:GaWorkloadEvent xmi:id="_bQYrIEe7EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1608319582251_392737_7443"/>
+  <GQAM:GaWorkloadEvent xmi:id="_bQYrIEe7EeyCl42b9jYMuQ" pattern="open:3.4" base_NamedElement="_19_0_4_6590219_1608319582251_392737_7443"/>
   <GQAM:GaStep xmi:id="_tx5egEe7EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1608320424580_683830_7521" base_Message="_19_0_4_6590219_1608320424580_683830_7521">
     <msgSize>50</msgSize>
     <respT>5.15171</respT>
@@ -485,7 +485,7 @@
     <msgSize>60</msgSize>
     <respT>1</respT>
   </GQAM:GaStep>
-  <GQAM:GaWorkloadEvent xmi:id="_gerqEEe9EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1610721991282_951936_5269"/>
+  <GQAM:GaWorkloadEvent xmi:id="_gerqEEe9EeyCl42b9jYMuQ" pattern="open:3.4" base_NamedElement="_19_0_4_6590219_1610721991282_951936_5269"/>
   <GQAM:GaScenario xmi:id="_jno_EEe9EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1610721622988_849744_5197" root="_mkcHYEe9EeyCl42b9jYMuQ">
     <throughput>0.12147996613138545</throughput>
     <respT>8.23181</respT>
@@ -514,7 +514,7 @@
     <throughput>0.09339248190520663</throughput>
     <respT>10.7075</respT>
   </GQAM:GaScenario>
-  <GQAM:GaWorkloadEvent xmi:id="_hDPTMEe-EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1635066762169_315521_5298"/>
+  <GQAM:GaWorkloadEvent xmi:id="_hDPTMEe-EeyCl42b9jYMuQ" pattern="open:3.4" base_NamedElement="_19_0_4_6590219_1635066762169_315521_5298"/>
   <GQAM:GaStep xmi:id="_kMoGAEe-EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1635067358916_145932_5489" base_Message="_19_0_4_6590219_1635067358916_145932_5489">
     <msgSize>20</msgSize>
     <respT>10.7075</respT>
