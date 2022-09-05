@@ -462,9 +462,9 @@
     <msgSize>49</msgSize>
     <respT>0.875</respT>
   </GQAM:GaStep>
-  <GQAM:GaWorkloadEvent xmi:id="_j2_8YA_PEeuykZ9VOZO6jQ" base_NamedElement="_19_0_3_28c0145_1587023303377_893476_5427"/>
-  <GQAM:GaWorkloadEvent xmi:id="_l9-P8A_PEeuykZ9VOZO6jQ" base_NamedElement="_19_0_3_28c0145_1601137972337_336814_5747"/>
-  <GQAM:GaWorkloadEvent xmi:id="_WoFHMA_TEeuykZ9VOZO6jQ" base_NamedElement="_19_0_3_28c0145_1601137874852_248909_5704"/>
+  <GQAM:GaWorkloadEvent xmi:id="_j2_8YA_PEeuykZ9VOZO6jQ" pattern="open:3.4" base_NamedElement="_19_0_3_28c0145_1587023303377_893476_5427"/>
+  <GQAM:GaWorkloadEvent xmi:id="_l9-P8A_PEeuykZ9VOZO6jQ" pattern="open:3.4" base_NamedElement="_19_0_3_28c0145_1601137972337_336814_5747"/>
+  <GQAM:GaWorkloadEvent xmi:id="_WoFHMA_TEeuykZ9VOZO6jQ" pattern="open:3.4" base_NamedElement="_19_0_3_28c0145_1601137874852_248909_5704"/>
   <Core:DaConnector xmi:id="_GBMkgBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128611750_648452_5444">
     <failure xmi:id="_IRGxoBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.03</occurrenceProb>
