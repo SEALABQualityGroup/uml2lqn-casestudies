@@ -1,0 +1,7 @@
+Centroid: 142
+perfQ          0.270234
+reliability    0.214906
+#changes          13.89
+pas                 1.0
+Name: 142, dtype: object
+/content/datasets/tmp/nsgaii-train-ticket-sbspe-100-eval-it-0/objectives/FUN9__train-ticket__BRF_clone_1.23__moc_1.64__mcnn_1.80__moncnn_1.45__MaxEval_100__ProbPAs_0.95__sb_none_sbth_6000__Algo_nsgaii.csv

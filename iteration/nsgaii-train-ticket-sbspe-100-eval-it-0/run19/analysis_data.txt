@@ -1,0 +1,8 @@
+Centroid: 289
+perfQ          0.326796
+reliability    0.781316
+#changes           5.99
+pas                 2.0
+Name: 289, dtype: object
+/content/datasets/tmp/nsgaii-train-ticket-sbspe-100-eval-it-0/objectives/FUN19__train-ticket__BRF_clone_1.23__moc_1.64__mcnn_1.80__moncnn_1.45__MaxEval_100__ProbPAs_0.95__sb_none_sbth_6000__Algo_nsgaii.csv
+
