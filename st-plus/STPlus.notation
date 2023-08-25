@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_f44PcCRVEe2YAYX20SsiUA" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_f44PcSRVEe2YAYX20SsiUA" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_f44PciRVEe2YAYX20SsiUA" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_f44PcyRVEe2YAYX20SsiUA" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f44PdCRVEe2YAYX20SsiUA"/>
+      </children>
+      <element xmi:type="ecore:EObject" href="STPlus.uml#_f4SZkCRVEe2YAYX20SsiUA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f44PdSRVEe2YAYX20SsiUA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_f44PdiRVEe2YAYX20SsiUA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_f44PdyRVEe2YAYX20SsiUA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_f44PeCRVEe2YAYX20SsiUA" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+    </styles>
+    <element xmi:type="ecore:EObject" href="STPlus.uml#_f4SZkCRVEe2YAYX20SsiUA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_f5GR4CRVEe2YAYX20SsiUA" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_f5GR4SRVEe2YAYX20SsiUA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_f5GR4iRVEe2YAYX20SsiUA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_f5GR4yRVEe2YAYX20SsiUA" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+      <owner xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+    </styles>
+    <element xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_f5J8QCRVEe2YAYX20SsiUA" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_f5J8QSRVEe2YAYX20SsiUA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_f5J8QiRVEe2YAYX20SsiUA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_f5J8QyRVEe2YAYX20SsiUA" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+    </styles>
+    <element xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_f5NmoCRVEe2YAYX20SsiUA" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_f5NmoSRVEe2YAYX20SsiUA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_f5NmoiRVEe2YAYX20SsiUA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_f5NmoyRVEe2YAYX20SsiUA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+    </styles>
+    <element xmi:type="ecore:EObject" href="STPlus.uml#_f3IjACRVEe2YAYX20SsiUA"/>
+  </notation:Diagram>
+</xmi:XMI>

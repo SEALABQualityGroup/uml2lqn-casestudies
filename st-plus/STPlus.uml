@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Complex_Data_Types="http://com.masdes.dam/libraries/Complex_Data_Types/1.0" xmlns:Core="http://com.masdes.dam/profiles/Core/1.0" xmlns:GQAM="http://www.eclipse.org/papyrus/GQAM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://com.masdes.dam/profiles/Core/1.0 http://com.masdes.dam/profiles/DAM/1.0#//Core http://www.eclipse.org/papyrus/GQAM/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_AnalysisModel/GQAM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HLAM">
+  <uml:Model xmi:id="eee_1045467100313_135436_1" name="Model" visibility="public" URI="" viewpoint="">
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_28c0145_1661415732709_933099_4795" name="static_view" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_28c0145_1661415849233_210974_4976" name="TripDB" visibility="public">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416372204_925203_5378" name="" visibility="public" client="_19_0_4_28c0145_1661415849233_210974_4976" supplier="_19_0_4_28c0145_1661416372196_889350_5377" contract="_19_0_4_28c0145_1661416372196_889350_5377"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661417383642_140087_5620" name="" visibility="public" client="_19_0_4_28c0145_1661415849233_210974_4976" supplier="_19_0_4_28c0145_1661417383631_135042_5619" contract="_19_0_4_28c0145_1661417383631_135042_5619"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661417395100_286881_5624" name="" visibility="public" client="_19_0_4_28c0145_1661415849233_210974_4976" supplier="_19_0_4_28c0145_1661417395091_388765_5623" contract="_19_0_4_28c0145_1661417395091_388765_5623"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416864128_855638_5423" name="addFile" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661417471863_288949_5654" name="queryDB" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661417521324_233276_5683" name="updateFile" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_28c0145_1661415859561_684565_5007" name="PaymentSystem" visibility="public">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416294174_857530_5354" name="" visibility="public" client="_19_0_4_28c0145_1661415859561_684565_5007" supplier="_19_0_4_28c0145_1661416294161_861413_5353" contract="_19_0_4_28c0145_1661416294161_861413_5353"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416308028_216587_5358" name="" visibility="public" client="_19_0_4_28c0145_1661415859561_684565_5007" supplier="_19_0_4_28c0145_1661416308020_276207_5357" contract="_19_0_4_28c0145_1661416308020_276207_5357"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_WLZPMDT4Ee2xx5PR3PqFAw" name="bankPayment" client="_19_0_4_28c0145_1661415859561_684565_5007" supplier="_NQi0EDT4Ee2xx5PR3PqFAw" contract="_NQi0EDT4Ee2xx5PR3PqFAw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_rh-1cDT8Ee2xx5PR3PqFAw" client="_19_0_4_28c0145_1661415859561_684565_5007" supplier="_pS_1YDT8Ee2xx5PR3PqFAw" contract="_pS_1YDT8Ee2xx5PR3PqFAw"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416923706_798445_5426" name="reimburse" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416934318_29078_5427" name="pay" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_K5PlgDT4Ee2xx5PR3PqFAw" name="bankPayment"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_nfFAsDT8Ee2xx5PR3PqFAw" name="ccPayment"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_28c0145_1661415869790_148546_5038" name="BusinessTripManagement" visibility="public">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416319892_720415_5362" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661416319882_221916_5361" contract="_19_0_4_28c0145_1661416319882_221916_5361"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661417454401_734503_5652" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661417454391_229917_5651" contract="_19_0_4_28c0145_1661417454391_229917_5651"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416892732_865354_5424" name="plan" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661425793644_282861_6469" name="export" visibility="public"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416461658_111453_5381" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661416294161_861413_5353"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416506020_823728_5387" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661416365862_10585_5373"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416526399_750519_5393" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661416372196_889350_5377"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416570089_847884_5405" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661416350047_2927_5369"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661417414288_449859_5639" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661417383631_135042_5619"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661417417349_500324_5645" name="" visibility="public" client="_19_0_4_28c0145_1661415869790_148546_5038" supplier="_19_0_4_28c0145_1661417395091_388765_5623"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_28c0145_1661415882553_543371_5069" name="Exporter" visibility="public">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416350059_289948_5370" name="" visibility="public" client="_19_0_4_28c0145_1661415882553_543371_5069" supplier="_19_0_4_28c0145_1661416350047_2927_5369" contract="_19_0_4_28c0145_1661416350047_2927_5369"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416751407_20053_5422" name="exportTrips" visibility="public"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416578760_518038_5411" name="" visibility="public" client="_19_0_4_28c0145_1661415882553_543371_5069" supplier="_19_0_4_28c0145_1661416372196_889350_5377"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661417407356_364874_5627" name="" visibility="public" client="_19_0_4_28c0145_1661415882553_543371_5069" supplier="_19_0_4_28c0145_1661417383631_135042_5619"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661417410342_604826_5633" name="" visibility="public" client="_19_0_4_28c0145_1661415882553_543371_5069" supplier="_19_0_4_28c0145_1661417395091_388765_5623"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_19_0_4_28c0145_1661415893721_430023_5100" name="BookingSystem" visibility="public">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_19_0_4_28c0145_1661416365871_489154_5374" name="" visibility="public" client="_19_0_4_28c0145_1661415893721_430023_5100" supplier="_19_0_4_28c0145_1661416365862_10585_5373" contract="_19_0_4_28c0145_1661416365862_10585_5373"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_19_0_4_28c0145_1661416909200_458947_5425" name="book" visibility="public"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_19_0_4_28c0145_1661416543993_440277_5399" name="" visibility="public" client="_19_0_4_28c0145_1661415893721_430023_5100" supplier="_19_0_4_28c0145_1661416308020_276207_5357"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416294161_861413_5353" name="reimburse" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416308020_276207_5357" name="pay" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416319882_221916_5361" name="plan" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416350047_2927_5369" name="exportTrips" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416365862_10585_5373" name="book" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661416372196_889350_5377" name="addFile" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661417383631_135042_5619" name="queryDB" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661417395091_388765_5623" name="updateFile" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_19_0_4_28c0145_1661417454391_229917_5651" name="export" visibility="public"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_NQi0EDT4Ee2xx5PR3PqFAw" name="bankPayment"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_pS_1YDT8Ee2xx5PR3PqFAw" name="ccPayment"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_28c0145_1661415743114_514414_4796" name="dynamic_view" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_28c0145_1661417111632_269712_5463" name="System" visibility="public"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_28c0145_1661417124227_188869_5485" name="STPlus_05c__AddFile_QueryDB_UpdateFile" visibility="public" classifierBehavior="_19_0_4_28c0145_1661417284918_928466_5513">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_28c0145_1661417284918_928466_5513" name="STPlus_05c__AddFile_QueryDB_UpdateFile" visibility="public" isReentrant="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417289789_502933_5556" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417301837_776791_5579" name="" visibility="private" type="_19_0_4_28c0145_1661415849233_210974_4976"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417289788_315962_5555" name="system_lf" visibility="public" represents="_19_0_4_28c0145_1661417289789_502933_5556" coveredBy="_19_0_3_28c0145_1661445587524_888813_5482 _19_0_3_28c0145_1661445391268_576770_5457 _19_0_3_28c0145_1661445129022_925775_5415 _19_0_3_28c0145_1661445134006_225675_5431 _19_0_3_28c0145_1661445129027_181291_5425 _19_0_3_28c0145_1661445545064_210107_5464 _19_0_3_28c0145_1661445300694_148297_5438 _19_0_3_28c0145_1661445300703_345713_5446 _19_0_3_28c0145_1661445545079_574609_5476"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417301837_89864_5578" name="tripdb_lf" visibility="public" represents="_19_0_4_28c0145_1661417301837_776791_5579" coveredBy="_19_0_3_28c0145_1661445129026_493713_5423 _19_0_3_28c0145_1661445300706_772463_5449 _19_0_3_28c0145_1661445134005_795419_5430 _19_0_3_28c0145_1661445545077_182169_5474 _19_0_3_28c0145_1661445129022_581761_5416 _19_0_3_28c0145_1661445300695_695620_5439 _19_0_3_28c0145_1661445391267_333127_5456 _19_0_3_28c0145_1661445545065_251955_5465 _19_0_3_28c0145_1661445587523_193857_5481"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445129022_925775_5415" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_addFile_send" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445129020_638464_5414"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445129022_581761_5416" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_addFile_receive" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445129020_638464_5414"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445134005_795419_5430" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_addFile_send" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445134003_767960_5429"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445134006_225675_5431" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_addFile_receive" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445134003_767960_5429"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445300694_148297_5438" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_queryDB_send" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445300692_265855_5437"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445300695_695620_5439" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_queryDB_receive" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445300692_265855_5437"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445391267_333127_5456" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_queryDB_send" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445391265_111263_5455"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445391268_576770_5457" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_queryDB_receive" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445391265_111263_5455"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445545064_210107_5464" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_updateFile_send" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445545062_706241_5463"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445545065_251955_5465" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_updateFile_receive" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445545062_706241_5463"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445587523_193857_5481" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_updateFile_send" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" message="_19_0_3_28c0145_1661445587521_703692_5480"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_3_28c0145_1661445587524_888813_5482" name="STPlus_05c__AddFile_QueryDB_UpdateFile_mos_reply_updateFile_receive" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" message="_19_0_3_28c0145_1661445587521_703692_5480"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445129026_493713_5423" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_addFile_tripDB" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" finish="_19_0_3_28c0145_1661445134005_795419_5430" start="_19_0_3_28c0145_1661445129022_581761_5416"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445129027_181291_5425" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_addFile_system" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" finish="_19_0_3_28c0145_1661445134006_225675_5431" start="_19_0_3_28c0145_1661445129022_925775_5415"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445300703_345713_5446" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_queryDB_system" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" finish="_19_0_3_28c0145_1661445391268_576770_5457" start="_19_0_3_28c0145_1661445300694_148297_5438"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445300706_772463_5449" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_queryDB_tripDB" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" finish="_19_0_3_28c0145_1661445391267_333127_5456" start="_19_0_3_28c0145_1661445300695_695620_5439"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445545077_182169_5474" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_updateFile_tripDB" visibility="public" covered="_19_0_4_28c0145_1661417301837_89864_5578" finish="_19_0_3_28c0145_1661445587523_193857_5481" start="_19_0_3_28c0145_1661445545065_251955_5465"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661445545079_574609_5476" name="STPlus_05c__AddFile_QueryDB_UpdateFile_bes_updateFile_system" visibility="public" covered="_19_0_4_28c0145_1661417289788_315962_5555" finish="_19_0_3_28c0145_1661445587524_888813_5482" start="_19_0_3_28c0145_1661445545064_210107_5464"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445129020_638464_5414" name="STPlus_05c__AddFile_QueryDB_UpdateFile_addFile" visibility="public" receiveEvent="_19_0_3_28c0145_1661445129022_581761_5416" sendEvent="_19_0_3_28c0145_1661445129022_925775_5415" signature="_19_0_4_28c0145_1661416864128_855638_5423"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445134003_767960_5429" name="STPlus_05c__AddFile_QueryDB_UpdateFile_reply_addFile" visibility="public" messageSort="reply" receiveEvent="_19_0_3_28c0145_1661445134006_225675_5431" sendEvent="_19_0_3_28c0145_1661445134005_795419_5430"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445300692_265855_5437" name="STPlus_05c__AddFile_QueryDB_UpdateFile_queryDB" visibility="public" receiveEvent="_19_0_3_28c0145_1661445300695_695620_5439" sendEvent="_19_0_3_28c0145_1661445300694_148297_5438" signature="_19_0_4_28c0145_1661417471863_288949_5654"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445391265_111263_5455" name="STPlus_05c__AddFile_QueryDB_UpdateFile_reply_queryDB" visibility="public" messageSort="reply" receiveEvent="_19_0_3_28c0145_1661445391268_576770_5457" sendEvent="_19_0_3_28c0145_1661445391267_333127_5456"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445545062_706241_5463" name="STPlus_05c__AddFile_QueryDB_UpdateFile_updateFile" visibility="public" receiveEvent="_19_0_3_28c0145_1661445545065_251955_5465" sendEvent="_19_0_3_28c0145_1661445545064_210107_5464" signature="_19_0_4_28c0145_1661417521324_233276_5683"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_3_28c0145_1661445587521_703692_5480" name="STPlus_05c__AddFile_QueryDB_UpdateFile_reply_updateFile" visibility="public" messageSort="reply" receiveEvent="_19_0_3_28c0145_1661445587524_888813_5482" sendEvent="_19_0_3_28c0145_1661445587523_193857_5481"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_28c0145_1661417172304_652762_5502" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661417172304_727396_5503 _19_0_4_28c0145_1661417172304_568069_5504" navigableOwnedEnd="_19_0_4_28c0145_1661417172304_727396_5503 _19_0_4_28c0145_1661417172304_568069_5504">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417172304_727396_5503" name="" visibility="private" type="_19_0_4_28c0145_1661417124227_188869_5485" association="_19_0_4_28c0145_1661417172304_652762_5502"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417172304_568069_5504" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463" association="_19_0_4_28c0145_1661417172304_652762_5502"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_28c0145_1661417592374_491379_5695" name="STPlus_04a__Pay_Reimburse" visibility="public" classifierBehavior="_19_0_4_28c0145_1661417688425_644293_5707">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_28c0145_1661417688425_644293_5707" name="STPlus_04a__Pay_Reimburse" visibility="public" isReentrant="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417696781_77509_5750" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417701484_126997_5773" name="" visibility="private" type="_19_0_4_28c0145_1661415859561_684565_5007"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417696780_564963_5749" name="system_lf" visibility="public" represents="_19_0_4_28c0145_1661417696781_77509_5750" coveredBy="_19_0_4_28c0145_1661417738112_76376_5805 _19_0_3_28c0145_1661444259352_637427_5384 _19_0_4_28c0145_1661417749930_154148_5815 _nxaqsDT4Ee2xx5PR3PqFAw _Re6nEDT6Ee2xx5PR3PqFAw _FLUSADT7Ee2xx5PR3PqFAw _Vmyl8DT7Ee2xx5PR3PqFAw _K0BxgDT8Ee2xx5PR3PqFAw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417701483_793576_5772" name="paymentSystem_lf" visibility="public" represents="_19_0_4_28c0145_1661417701484_126997_5773" coveredBy="_19_0_3_28c0145_1661441174327_628509_5077 _19_0_4_28c0145_1661417749929_651332_5814 _19_0_4_28c0145_1661417738113_358571_5806 _zSUiEDT4Ee2xx5PR3PqFAw _XGr9UDT5Ee2xx5PR3PqFAw _EG8V0DT5Ee2xx5PR3PqFAw _GTuEgDT7Ee2xx5PR3PqFAw _h_irUDT7Ee2xx5PR3PqFAw _2SZggDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nxaqsDT4Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bankPayment_send" covered="_19_0_4_28c0145_1661417696780_564963_5749" message="_AAlZ4DT4Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zSUiEDT4Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bankPayment_receive" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_AAlZ4DT4Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_EG8V0DT5Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bes_bankPayment_paymentSystem" covered="_19_0_4_28c0145_1661417701483_793576_5772" finish="_XGr9UDT5Ee2xx5PR3PqFAw" start="_zSUiEDT4Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XGr9UDT5Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_reply_bankPayment_send" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_SA69YDT5Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dVxVwDT5Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_reply_bankPayment_receive"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Re6nEDT6Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bes_bankPayment_system" covered="_19_0_4_28c0145_1661417696780_564963_5749" finish="_dVxVwDT5Ee2xx5PR3PqFAw" start="_nxaqsDT4Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_FLUSADT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bes_ccPayment_system" covered="_19_0_4_28c0145_1661417696780_564963_5749" finish="_K0BxgDT8Ee2xx5PR3PqFAw" start="_Vmyl8DT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_GTuEgDT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bes_ccPayment_paymentSystem" covered="_19_0_4_28c0145_1661417701483_793576_5772" finish="_2SZggDT7Ee2xx5PR3PqFAw" start="_h_irUDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vmyl8DT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_ccPayment_send" covered="_19_0_4_28c0145_1661417696780_564963_5749" message="_CoODIDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h_irUDT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_ccPayment_receive" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_CoODIDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2SZggDT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_reply_ccPayment_send" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_vvB6IDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K0BxgDT8Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_mos_reply_ccPayment_receive" covered="_19_0_4_28c0145_1661417696780_564963_5749" message="_vvB6IDT7Ee2xx5PR3PqFAw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417738112_76376_5805" name="STPlus_04a__Pay_Reimburse_mos_reimburse_send" visibility="public" covered="_19_0_4_28c0145_1661417696780_564963_5749" message="_19_0_4_28c0145_1661417738109_685808_5804"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417738113_358571_5806" name="STPlus_04a__Pay_Reimburse_mos_reimburse_receive" visibility="public" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_19_0_4_28c0145_1661417738109_685808_5804"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417749929_651332_5814" name="STPlus_04a__Pay_Reimburse_mos_reply_reimburse_send" visibility="public" covered="_19_0_4_28c0145_1661417701483_793576_5772" message="_19_0_4_28c0145_1661417749927_941101_5813"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417749930_154148_5815" name="STPlus_04a__Pay_Reimburse_mos_reply_reimburse_receive" visibility="public" covered="_19_0_4_28c0145_1661417696780_564963_5749" message="_19_0_4_28c0145_1661417749927_941101_5813"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441174327_628509_5077" name="STPlus_04a__Pay_Reimburse_bes_reimburse_paymentSystem" visibility="public" covered="_19_0_4_28c0145_1661417701483_793576_5772" finish="_19_0_4_28c0145_1661417749929_651332_5814" start="_19_0_4_28c0145_1661417738113_358571_5806"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661444259352_637427_5384" name="STPlus_04a__Pay_Reimburse_bes_reimburse_system" visibility="public" covered="_19_0_4_28c0145_1661417696780_564963_5749" finish="_19_0_4_28c0145_1661417749930_154148_5815" start="_19_0_4_28c0145_1661417738112_76376_5805"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417738109_685808_5804" name="STPlus_04a__Pay_Reimburse_reimburse" visibility="public" receiveEvent="_19_0_4_28c0145_1661417738113_358571_5806" sendEvent="_19_0_4_28c0145_1661417738112_76376_5805" signature="_19_0_4_28c0145_1661416923706_798445_5426"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417749927_941101_5813" name="STPlus_04a__Pay_Reimburse_reply_reimburse" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661417749930_154148_5815" sendEvent="_19_0_4_28c0145_1661417749929_651332_5814"/>
+          <message xmi:type="uml:Message" xmi:id="_AAlZ4DT4Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_bankPayment" receiveEvent="_zSUiEDT4Ee2xx5PR3PqFAw" sendEvent="_nxaqsDT4Ee2xx5PR3PqFAw" signature="_K5PlgDT4Ee2xx5PR3PqFAw"/>
+          <message xmi:type="uml:Message" xmi:id="_SA69YDT5Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_reply_bankPayment" messageSort="reply" receiveEvent="_dVxVwDT5Ee2xx5PR3PqFAw" sendEvent="_XGr9UDT5Ee2xx5PR3PqFAw"/>
+          <message xmi:type="uml:Message" xmi:id="_CoODIDT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_ccPayment" receiveEvent="_h_irUDT7Ee2xx5PR3PqFAw" sendEvent="_Vmyl8DT7Ee2xx5PR3PqFAw" signature="_nfFAsDT8Ee2xx5PR3PqFAw"/>
+          <message xmi:type="uml:Message" xmi:id="_vvB6IDT7Ee2xx5PR3PqFAw" name="STPlus_04a__Pay_Reimburse_reply_ccPayment" messageSort="reply" receiveEvent="_K0BxgDT8Ee2xx5PR3PqFAw" sendEvent="_2SZggDT7Ee2xx5PR3PqFAw"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_28c0145_1661417592385_86955_5696" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661417592385_718647_5697 _19_0_4_28c0145_1661417592385_185609_5698" navigableOwnedEnd="_19_0_4_28c0145_1661417592385_718647_5697 _19_0_4_28c0145_1661417592385_185609_5698">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417592385_718647_5697" name="" visibility="private" type="_19_0_4_28c0145_1661417592374_491379_5695" association="_19_0_4_28c0145_1661417592385_86955_5696"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417592385_185609_5698" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463" association="_19_0_4_28c0145_1661417592385_86955_5696"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_28c0145_1661417776268_687908_5823" name="STPlus_03b__Book" visibility="public" classifierBehavior="_19_0_4_28c0145_1661417795227_673970_5835">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_28c0145_1661417795227_673970_5835" name="STPlus_03b__Book" visibility="public" isReentrant="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417799331_33742_5878" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417807757_59396_5901" name="" visibility="private" type="_19_0_4_28c0145_1661415893721_430023_5100"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417813176_113070_5924" name="" visibility="private" type="_19_0_4_28c0145_1661415859561_684565_5007"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417799331_336084_5877" name="system_lf" visibility="public" represents="_19_0_4_28c0145_1661417799331_33742_5878" coveredBy="_19_0_4_28c0145_1661417846594_164222_5966 _19_0_3_28c0145_1661441170977_519245_5069 _19_0_4_28c0145_1661417818739_852237_5938"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417807757_691892_5900" name="bookingSystem_lf" visibility="public" represents="_19_0_4_28c0145_1661417807757_59396_5901" coveredBy="_19_0_4_28c0145_1661417846593_437044_5965 _19_0_4_28c0145_1661417818740_232416_5939 _19_0_4_28c0145_1661417831181_819653_5948 _19_0_4_28c0145_1661417842570_2947_5958 _19_0_3_28c0145_1661441170977_194093_5068"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417813176_74735_5923" name="paymentSystem_lf" visibility="public" represents="_19_0_4_28c0145_1661417813176_113070_5924" coveredBy="_19_0_4_28c0145_1661417831181_903419_5949 _19_0_4_28c0145_1661417842569_294689_5957 _19_0_3_28c0145_1661441170978_725449_5072"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417818739_852237_5938" name="STPlus_03b__Book_mos_book_send" visibility="public" covered="_19_0_4_28c0145_1661417799331_336084_5877" message="_19_0_4_28c0145_1661417818737_730838_5937"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417818740_232416_5939" name="STPlus_03b__Book_mos_book_receive" visibility="public" covered="_19_0_4_28c0145_1661417807757_691892_5900" message="_19_0_4_28c0145_1661417818737_730838_5937"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417831181_819653_5948" name="STPlus_03b__Book_mos_pay_send" visibility="public" covered="_19_0_4_28c0145_1661417807757_691892_5900" message="_19_0_4_28c0145_1661417831179_77662_5947"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417831181_903419_5949" name="STPlus_03b__Book_mos_pay_receive" visibility="public" covered="_19_0_4_28c0145_1661417813176_74735_5923" message="_19_0_4_28c0145_1661417831179_77662_5947"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417842569_294689_5957" name="STPlus_03b__Book_mos_reply_pay_send" visibility="public" covered="_19_0_4_28c0145_1661417813176_74735_5923" message="_19_0_4_28c0145_1661417842567_483763_5956"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417842570_2947_5958" name="STPlus_03b__Book_mos_reply_pay_receive" visibility="public" covered="_19_0_4_28c0145_1661417807757_691892_5900" message="_19_0_4_28c0145_1661417842567_483763_5956"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417846593_437044_5965" name="STPlus_03b__Book_mos_reply_book_send" visibility="public" covered="_19_0_4_28c0145_1661417807757_691892_5900" message="_19_0_4_28c0145_1661417846591_557664_5964"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417846594_164222_5966" name="STPlus_03b__Book_mos_reply_book_receive" visibility="public" covered="_19_0_4_28c0145_1661417799331_336084_5877" message="_19_0_4_28c0145_1661417846591_557664_5964"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441170977_194093_5068" name="STPlus_03b__Book_bes_book_bookingSystem" visibility="public" covered="_19_0_4_28c0145_1661417807757_691892_5900" finish="_19_0_4_28c0145_1661417846593_437044_5965" start="_19_0_4_28c0145_1661417818740_232416_5939"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441170977_519245_5069" name="STPlus_03b__Book_bes_book_system" visibility="public" covered="_19_0_4_28c0145_1661417799331_336084_5877" finish="_19_0_4_28c0145_1661417846594_164222_5966" start="_19_0_4_28c0145_1661417818739_852237_5938"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441170978_725449_5072" name="STPlus_03b__Book_bes_pay_paymentSystem" visibility="public" covered="_19_0_4_28c0145_1661417813176_74735_5923" finish="_19_0_4_28c0145_1661417842569_294689_5957" start="_19_0_4_28c0145_1661417831181_903419_5949"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417818737_730838_5937" name="STPlus_03b__Book_book" visibility="public" receiveEvent="_19_0_4_28c0145_1661417818740_232416_5939" sendEvent="_19_0_4_28c0145_1661417818739_852237_5938" signature="_19_0_4_28c0145_1661416909200_458947_5425"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417831179_77662_5947" name="STPlus_03b__Book_pay" visibility="public" receiveEvent="_19_0_4_28c0145_1661417831181_903419_5949" sendEvent="_19_0_4_28c0145_1661417831181_819653_5948" signature="_19_0_4_28c0145_1661416934318_29078_5427"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417842567_483763_5956" name="STPlus_03b__Book_reply_pay" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661417842570_2947_5958" sendEvent="_19_0_4_28c0145_1661417842569_294689_5957"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417846591_557664_5964" name="STPlus_03b__Book_reply_book" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661417846594_164222_5966" sendEvent="_19_0_4_28c0145_1661417846593_437044_5965"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_28c0145_1661417776281_294870_5824" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661417776281_174649_5825 _19_0_4_28c0145_1661417776281_727856_5826" navigableOwnedEnd="_19_0_4_28c0145_1661417776281_174649_5825 _19_0_4_28c0145_1661417776281_727856_5826">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417776281_174649_5825" name="" visibility="private" type="_19_0_4_28c0145_1661417776268_687908_5823" association="_19_0_4_28c0145_1661417776281_294870_5824"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417776281_727856_5826" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463" association="_19_0_4_28c0145_1661417776281_294870_5824"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_28c0145_1661417867720_677982_5974" name="STPlus_02b__ExportTrips" visibility="public" classifierBehavior="_19_0_4_28c0145_1661417890085_473637_5986">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_28c0145_1661417890085_473637_5986" name="STPlus_02b__ExportTrips" visibility="public" isReentrant="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417896169_83385_6029" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417901931_189644_6052" name="" visibility="private" type="_19_0_4_28c0145_1661415882553_543371_5069"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417909067_276925_6075" name="" visibility="private" type="_19_0_4_28c0145_1661415849233_210974_4976"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417896169_332276_6028" name="system_lf" visibility="public" represents="_19_0_4_28c0145_1661417896169_83385_6029" coveredBy="_19_0_3_28c0145_1661441167625_403040_5065 _19_0_4_28c0145_1661417919967_101452_6101 _19_0_4_28c0145_1661417959711_577568_6129"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417901931_566037_6051" name="exporter_lf" visibility="public" represents="_19_0_4_28c0145_1661417901931_189644_6052" coveredBy="_19_0_4_28c0145_1661417919967_405610_6102 _19_0_4_28c0145_1661417929816_970000_6111 _19_0_4_28c0145_1661417954765_688319_6121 _19_0_4_28c0145_1661417959710_841385_6128 _19_0_3_28c0145_1661441167624_479489_5063"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661417909067_668128_6074" name="tripdb_lf" visibility="public" represents="_19_0_4_28c0145_1661417909067_276925_6075" coveredBy="_19_0_4_28c0145_1661417929817_445850_6112 _19_0_4_28c0145_1661417954764_506991_6120 _19_0_3_28c0145_1661441167624_576281_5064"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417919967_101452_6101" name="STPlus_02b__ExportTrips_mos_exportTrips_send" visibility="public" covered="_19_0_4_28c0145_1661417896169_332276_6028" message="_19_0_4_28c0145_1661417919965_371249_6100"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417919967_405610_6102" name="STPlus_02b__ExportTrips_mos_exportTrips_receive" visibility="public" covered="_19_0_4_28c0145_1661417901931_566037_6051" message="_19_0_4_28c0145_1661417919965_371249_6100"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417929816_970000_6111" name="STPlus_02b__ExportTrips_mos_queryDB_send" visibility="public" covered="_19_0_4_28c0145_1661417901931_566037_6051" message="_19_0_4_28c0145_1661417929814_10934_6110"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417929817_445850_6112" name="STPlus_02b__ExportTrips_mos_queryDB_receive" visibility="public" covered="_19_0_4_28c0145_1661417909067_668128_6074" message="_19_0_4_28c0145_1661417929814_10934_6110"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417954764_506991_6120" name="STPlus_02b__ExportTrips_mos_reply_queryDB_send" visibility="public" covered="_19_0_4_28c0145_1661417909067_668128_6074" message="_19_0_4_28c0145_1661417954762_782527_6119"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417954765_688319_6121" name="STPlus_02b__ExportTrips_mos_reply_queryDB_receive" visibility="public" covered="_19_0_4_28c0145_1661417901931_566037_6051" message="_19_0_4_28c0145_1661417954762_782527_6119"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417959710_841385_6128" name="STPlus_02b__ExportTrips_mos_reply_exportTrips_send" visibility="public" covered="_19_0_4_28c0145_1661417901931_566037_6051" message="_19_0_4_28c0145_1661417959708_596706_6127"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661417959711_577568_6129" name="STPlus_02b__ExportTrips_mos_reply_exportTrips_receive" visibility="public" covered="_19_0_4_28c0145_1661417896169_332276_6028" message="_19_0_4_28c0145_1661417959708_596706_6127"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441167624_479489_5063" name="STPlus_02b__ExportTrips_bes_export_exporter" visibility="public" covered="_19_0_4_28c0145_1661417901931_566037_6051" finish="_19_0_4_28c0145_1661417959710_841385_6128" start="_19_0_4_28c0145_1661417919967_405610_6102"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441167624_576281_5064" name="STPlus_02b__ExportTrips_bes_queryDB_tripDB" visibility="public" covered="_19_0_4_28c0145_1661417909067_668128_6074" finish="_19_0_4_28c0145_1661417954764_506991_6120" start="_19_0_4_28c0145_1661417929817_445850_6112"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441167625_403040_5065" name="STPlus_02b__ExportTrips_bes_exportTrips_system" visibility="public" covered="_19_0_4_28c0145_1661417896169_332276_6028" finish="_19_0_4_28c0145_1661417959711_577568_6129" start="_19_0_4_28c0145_1661417919967_101452_6101"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417919965_371249_6100" name="STPlus_02b__ExportTrips_exportTrips" visibility="public" receiveEvent="_19_0_4_28c0145_1661417919967_405610_6102" sendEvent="_19_0_4_28c0145_1661417919967_101452_6101" signature="_19_0_4_28c0145_1661416751407_20053_5422"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417929814_10934_6110" name="STPlus_02b__ExportTrips_queryDB" visibility="public" receiveEvent="_19_0_4_28c0145_1661417929817_445850_6112" sendEvent="_19_0_4_28c0145_1661417929816_970000_6111" signature="_19_0_4_28c0145_1661417471863_288949_5654"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417954762_782527_6119" name="STPlus_02b__ExportTrips_reply_queryDB" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661417954765_688319_6121" sendEvent="_19_0_4_28c0145_1661417954764_506991_6120"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661417959708_596706_6127" name="STPlus_02b__ExportTrips_reply_exportTrips" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661417959711_577568_6129" sendEvent="_19_0_4_28c0145_1661417959710_841385_6128"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_28c0145_1661417867731_20021_5975" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661417867731_495395_5976 _19_0_4_28c0145_1661417867731_89205_5977" navigableOwnedEnd="_19_0_4_28c0145_1661417867731_495395_5976 _19_0_4_28c0145_1661417867731_89205_5977">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417867731_495395_5976" name="" visibility="private" type="_19_0_4_28c0145_1661417867720_677982_5974" association="_19_0_4_28c0145_1661417867731_20021_5975"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417867731_89205_5977" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463" association="_19_0_4_28c0145_1661417867731_20021_5975"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_4_28c0145_1661417995767_345557_6142" name="STPlus_01__Plan_Export" visibility="public" classifierBehavior="_19_0_4_28c0145_1661418013072_626796_6154">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19_0_4_28c0145_1661418013072_626796_6154" name="STPlus_01__Plan_Export" visibility="public" isReentrant="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418017980_672634_6197" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418025109_485751_6220" name="" visibility="private" type="_19_0_4_28c0145_1661415869790_148546_5038"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418027390_260173_6243" name="" visibility="private" type="_19_0_4_28c0145_1661415893721_430023_5100"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418031453_682503_6266" name="" visibility="private" type="_19_0_4_28c0145_1661415859561_684565_5007"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418034858_552359_6289" name="" visibility="private" type="_19_0_4_28c0145_1661415849233_210974_4976"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661418036811_469934_6312" name="" visibility="private" type="_19_0_4_28c0145_1661415882553_543371_5069"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418017980_413397_6196" name="system_lf" visibility="public" represents="_19_0_4_28c0145_1661418017980_672634_6197" coveredBy="_19_0_4_28c0145_1661425886393_866896_6490 _19_0_4_28c0145_1661418068361_574328_6326 _19_0_4_28c0145_1661425374167_70786_6454 _19_0_4_28c0145_1661425640109_377519_6462 _19_0_3_28c0145_1661441195134_487013_5087 _19_0_3_28c0145_1661441204527_492268_5092"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418025108_671994_6219" name="businessManagement_lf" visibility="public" represents="_19_0_4_28c0145_1661418025109_485751_6220" coveredBy="_19_0_4_28c0145_1661424275221_300946_6445 _19_0_4_28c0145_1661418115013_240049_6353 _19_0_4_28c0145_1661425640110_634280_6463 _19_0_3_28c0145_1661440960236_722054_5062 _19_0_4_28c0145_1661418068362_283560_6327 _19_0_4_28c0145_1661418085787_474409_6336 _19_0_4_28c0145_1661418100712_710248_6346 _19_0_4_28c0145_1661418136580_473871_6370 _19_0_4_28c0145_1661418125576_425097_6363 _19_0_4_28c0145_1661418159251_212471_6379 _19_0_4_28c0145_1661418170259_169315_6390 _19_0_4_28c0145_1661425374166_594108_6453 _19_0_4_28c0145_1661425816004_591525_6472 _19_0_4_28c0145_1661425855835_835665_6482 _19_0_4_28c0145_1661425886392_253961_6489 _19_0_3_28c0145_1661440960236_12804_5061"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418027390_158006_6242" name="bookingSystem_lf" visibility="public" represents="_19_0_4_28c0145_1661418027390_260173_6243" coveredBy="_19_0_3_28c0145_1661440960235_70568_5057 _19_0_4_28c0145_1661418085788_333616_6337 _19_0_4_28c0145_1661418100711_933074_6345"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418031453_908739_6265" name="paymentSystem_lf" visibility="public" represents="_19_0_4_28c0145_1661418031453_682503_6266" coveredBy="_19_0_4_28c0145_1661418125575_257573_6362 _19_0_4_28c0145_1661418115014_48538_6354 _19_0_3_28c0145_1661440960234_920104_5056"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418034857_403945_6288" name="tripDB_lf" visibility="public" represents="_19_0_4_28c0145_1661418034858_552359_6289" coveredBy="_19_0_4_28c0145_1661424275220_734261_6444 _19_0_4_28c0145_1661418136581_912943_6371 _19_0_4_28c0145_1661418159252_56826_6380 _19_0_4_28c0145_1661418170258_804026_6389 _19_0_3_28c0145_1661440960235_146645_5058 _19_0_3_28c0145_1661440960235_792049_5059"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_19_0_4_28c0145_1661418036810_18159_6311" name="exporter_lf" visibility="public" represents="_19_0_4_28c0145_1661418036811_469934_6312" coveredBy="_19_0_4_28c0145_1661425855834_109541_6481 _19_0_4_28c0145_1661425816005_709796_6473 _19_0_3_28c0145_1661440960235_667134_5060"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418068361_574328_6326" name="STPlus_01__Plan_Export_mos_plan_send" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" message="_19_0_4_28c0145_1661418068358_66715_6325"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418068362_283560_6327" name="STPlus_01__Plan_Export_mos_plan_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418068358_66715_6325"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418085787_474409_6336" name="STPlus_01__Plan_Export_mos_book_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418085786_804348_6335"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418085788_333616_6337" name="STPlus_01__Plan_Export_mos_book_receive" visibility="public" covered="_19_0_4_28c0145_1661418027390_158006_6242" message="_19_0_4_28c0145_1661418085786_804348_6335"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418100711_933074_6345" name="STPlus_01__Plan_Export_mos_reply_book_send" visibility="public" covered="_19_0_4_28c0145_1661418027390_158006_6242" message="_19_0_4_28c0145_1661418100710_539431_6344"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418100712_710248_6346" name="STPlus_01__Plan_Export_mos_reply_book_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418100710_539431_6344"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418136580_473871_6370" name="STPlus_01__Plan_Export_mos_addFile_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418136578_579337_6369"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418136581_912943_6371" name="STPlus_01__Plan_Export_mos_addFile_receive" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" message="_19_0_4_28c0145_1661418136578_579337_6369"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661424275220_734261_6444" name="STPlus_01__Plan_Export_mos_reply_addFile_send" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" message="_19_0_4_28c0145_1661424275218_63880_6443"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661424275221_300946_6445" name="STPlus_01__Plan_Export_mos_reply_addFile_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661424275218_63880_6443"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418115013_240049_6353" name="STPlus_01__Plan_Export_mos_pay_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418115012_580119_6352"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418115014_48538_6354" name="STPlus_01__Plan_Export_mos_pay_receive" visibility="public" covered="_19_0_4_28c0145_1661418031453_908739_6265" message="_19_0_4_28c0145_1661418115012_580119_6352"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418125575_257573_6362" name="STPlus_01__Plan_Export_mos_reply_pay_send" visibility="public" covered="_19_0_4_28c0145_1661418031453_908739_6265" message="_19_0_4_28c0145_1661418125574_69559_6361"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418125576_425097_6363" name="STPlus_01__Plan_Export_mos_reply_pay_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418125574_69559_6361"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418159251_212471_6379" name="STPlus_01__Plan_Export_mos_updateFile_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418159249_880091_6378"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418159252_56826_6380" name="STPlus_01__Plan_Export_mos_updateFile_receive" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" message="_19_0_4_28c0145_1661418159249_880091_6378"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418170258_804026_6389" name="STPlus_01__Plan_Export_mos_reply_updateFile_send" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" message="_19_0_4_28c0145_1661418170257_29932_6388"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661418170259_169315_6390" name="STPlus_01__Plan_Export_mos_reply_updateFile_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661418170257_29932_6388"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425374166_594108_6453" name="STPlus_01__Plan_Export_mos_reply_plan_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661425374163_256305_6452"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425374167_70786_6454" name="STPlus_01__Plan_Export_mos_reply_plan_receive" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" message="_19_0_4_28c0145_1661425374163_256305_6452"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425640109_377519_6462" name="STPlus_01__Plan_Export_mos_export_send" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" message="_19_0_4_28c0145_1661425640108_359603_6461"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425640110_634280_6463" name="STPlus_01__Plan_Export_mos_export_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661425640108_359603_6461"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425816004_591525_6472" name="STPlus_01__Plan_Export_mos_exportTrips_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661425816003_407708_6471"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425816005_709796_6473" name="STPlus_01__Plan_Export_mos_exportTrips_receive" visibility="public" covered="_19_0_4_28c0145_1661418036810_18159_6311" message="_19_0_4_28c0145_1661425816003_407708_6471"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425855834_109541_6481" name="STPlus_01__Plan_Export_mos_reply_exportTrips_send" visibility="public" covered="_19_0_4_28c0145_1661418036810_18159_6311" message="_19_0_4_28c0145_1661425855832_7394_6480"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425855835_835665_6482" name="STPlus_01__Plan_Export_mos_reply_exportTrips_receive" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661425855832_7394_6480"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425886392_253961_6489" name="STPlus_01__Plan_Export_mos_reply_export_send" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" message="_19_0_4_28c0145_1661425886390_294024_6488"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_19_0_4_28c0145_1661425886393_866896_6490" name="STPlus_01__Plan_Export_mos_reply_export_receive" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" message="_19_0_4_28c0145_1661425886390_294024_6488"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960234_920104_5056" name="STPlus_01__Plan_Export_bes_pay_paymentSystem" visibility="public" covered="_19_0_4_28c0145_1661418031453_908739_6265" finish="_19_0_4_28c0145_1661418125575_257573_6362" start="_19_0_4_28c0145_1661418115014_48538_6354"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960235_70568_5057" name="STPlus_01__Plan_Export_bes_book_bookingSystem" visibility="public" covered="_19_0_4_28c0145_1661418027390_158006_6242" finish="_19_0_4_28c0145_1661418100711_933074_6345" start="_19_0_4_28c0145_1661418085788_333616_6337"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960235_146645_5058" name="STPlus_01__Plan_Export_bes_addFile_tripDB" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" finish="_19_0_4_28c0145_1661424275220_734261_6444" start="_19_0_4_28c0145_1661418136581_912943_6371"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960235_792049_5059" name="STPlus_01__Plan_Export_bes_updateFile_tripDB" visibility="public" covered="_19_0_4_28c0145_1661418034857_403945_6288" finish="_19_0_4_28c0145_1661418170258_804026_6389" start="_19_0_4_28c0145_1661418159252_56826_6380"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960235_667134_5060" name="STPlus_01__Plan_Export_bes_exportTrips_exporter" visibility="public" covered="_19_0_4_28c0145_1661418036810_18159_6311" finish="_19_0_4_28c0145_1661425855834_109541_6481" start="_19_0_4_28c0145_1661425816005_709796_6473"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960236_12804_5061" name="STPlus_01__Plan_Export_bes_export_businessManagementSystem" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" finish="_19_0_4_28c0145_1661425886392_253961_6489" start="_19_0_4_28c0145_1661425640110_634280_6463"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661440960236_722054_5062" name="STPlus_01__Plan_Export_bes_plan_businessManagementSystem" visibility="public" covered="_19_0_4_28c0145_1661418025108_671994_6219" finish="_19_0_4_28c0145_1661425374166_594108_6453" start="_19_0_4_28c0145_1661418068362_283560_6327"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441195134_487013_5087" name="STPlus_01__Plan_Export_bes_plan_system" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" finish="_19_0_4_28c0145_1661425374167_70786_6454" start="_19_0_4_28c0145_1661418068361_574328_6326"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_19_0_3_28c0145_1661441204527_492268_5092" name="STPlus_01__Plan_Export_bes_export_system" visibility="public" covered="_19_0_4_28c0145_1661418017980_413397_6196" finish="_19_0_4_28c0145_1661425886393_866896_6490" start="_19_0_4_28c0145_1661425640109_377519_6462"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418068358_66715_6325" name="STPlus_01__Plan_Export_plan" visibility="public" receiveEvent="_19_0_4_28c0145_1661418068362_283560_6327" sendEvent="_19_0_4_28c0145_1661418068361_574328_6326" signature="_19_0_4_28c0145_1661416892732_865354_5424"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418085786_804348_6335" name="STPlus_01__Plan_Export_book" visibility="public" receiveEvent="_19_0_4_28c0145_1661418085788_333616_6337" sendEvent="_19_0_4_28c0145_1661418085787_474409_6336" signature="_19_0_4_28c0145_1661416909200_458947_5425"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418100710_539431_6344" name="STPlus_01__Plan_Export_reply_book" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661418100712_710248_6346" sendEvent="_19_0_4_28c0145_1661418100711_933074_6345"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418136578_579337_6369" name="STPlus_01__Plan_Export_addFile" visibility="public" receiveEvent="_19_0_4_28c0145_1661418136581_912943_6371" sendEvent="_19_0_4_28c0145_1661418136580_473871_6370" signature="_19_0_4_28c0145_1661416864128_855638_5423"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661424275218_63880_6443" name="STPlus_01__Plan_Export_reply_addFile" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661424275221_300946_6445" sendEvent="_19_0_4_28c0145_1661424275220_734261_6444"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418115012_580119_6352" name="STPlus_01__Plan_Export_pay" visibility="public" receiveEvent="_19_0_4_28c0145_1661418115014_48538_6354" sendEvent="_19_0_4_28c0145_1661418115013_240049_6353" signature="_19_0_4_28c0145_1661416934318_29078_5427"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418125574_69559_6361" name="STPlus_01__Plan_Export_reply_pay" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661418125576_425097_6363" sendEvent="_19_0_4_28c0145_1661418125575_257573_6362"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418159249_880091_6378" name="STPlus_01__Plan_Export_updateFile" visibility="public" receiveEvent="_19_0_4_28c0145_1661418159252_56826_6380" sendEvent="_19_0_4_28c0145_1661418159251_212471_6379" signature="_19_0_4_28c0145_1661417521324_233276_5683"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661418170257_29932_6388" name="STPlus_01__Plan_Export_reply_updateFile" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661418170259_169315_6390" sendEvent="_19_0_4_28c0145_1661418170258_804026_6389"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661425374163_256305_6452" name="STPlus_01__Plan_Export_reply_plan" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661425374167_70786_6454" sendEvent="_19_0_4_28c0145_1661425374166_594108_6453"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661425640108_359603_6461" name="STPlus_01__Plan_Export_export" visibility="public" receiveEvent="_19_0_4_28c0145_1661425640110_634280_6463" sendEvent="_19_0_4_28c0145_1661425640109_377519_6462" signature="_19_0_4_28c0145_1661425793644_282861_6469"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661425816003_407708_6471" name="STPlus_01__Plan_Export_exportTrips" visibility="public" receiveEvent="_19_0_4_28c0145_1661425816005_709796_6473" sendEvent="_19_0_4_28c0145_1661425816004_591525_6472" signature="_19_0_4_28c0145_1661416751407_20053_5422"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661425855832_7394_6480" name="STPlus_01__Plan_Export_reply_exportTrips" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661425855835_835665_6482" sendEvent="_19_0_4_28c0145_1661425855834_109541_6481"/>
+          <message xmi:type="uml:Message" xmi:id="_19_0_4_28c0145_1661425886390_294024_6488" name="STPlus_01__Plan_Export_reply_export" visibility="public" messageSort="reply" receiveEvent="_19_0_4_28c0145_1661425886393_866896_6490" sendEvent="_19_0_4_28c0145_1661425886392_253961_6489"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_28c0145_1661417995777_596872_6143" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661417995777_492219_6144 _19_0_4_28c0145_1661417995777_511086_6145" navigableOwnedEnd="_19_0_4_28c0145_1661417995777_492219_6144 _19_0_4_28c0145_1661417995777_511086_6145">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417995777_492219_6144" name="" visibility="private" type="_19_0_4_28c0145_1661417995767_345557_6142" association="_19_0_4_28c0145_1661417995777_596872_6143"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661417995777_511086_6145" name="" visibility="private" type="_19_0_4_28c0145_1661417111632_269712_5463" association="_19_0_4_28c0145_1661417995777_596872_6143"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_28c0145_1661415748138_777428_4797" name="deployment_view" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_28c0145_1661415810935_873192_4864" name="DBServer" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416159977_747325_5306" name="" visibility="private" type="_19_0_4_28c0145_1661416150314_558299_5273" association="_19_0_4_28c0145_1661416159976_522877_5304"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_19_0_4_28c0145_1661416039595_63221_5267" name="" visibility="public" client="_19_0_4_28c0145_1661415810935_873192_4864" supplier="_19_0_4_28c0145_1661416033967_705630_5245" deployedArtifact="_19_0_4_28c0145_1661416033967_705630_5245"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_28c0145_1661415818596_861111_4892" name="Server1" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416164826_381281_5332" name="" visibility="private" type="_19_0_4_28c0145_1661416150314_558299_5273" association="_19_0_4_28c0145_1661416164825_583133_5330"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_19_0_4_28c0145_1661415959883_961742_5183" name="" visibility="public" client="_19_0_4_28c0145_1661415818596_861111_4892" supplier="_19_0_4_28c0145_1661415944985_96127_5161" deployedArtifact="_19_0_4_28c0145_1661415944985_96127_5161"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_19_0_4_28c0145_1661415984043_181166_5211" name="" visibility="public" client="_19_0_4_28c0145_1661415818596_861111_4892" supplier="_19_0_4_28c0145_1661415976870_601717_5189" deployedArtifact="_19_0_4_28c0145_1661415976870_601717_5189"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_28c0145_1661415823961_188877_4920" name="Server2" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416166656_284447_5345" name="" visibility="private" type="_19_0_4_28c0145_1661416150314_558299_5273" association="_19_0_4_28c0145_1661416166656_840380_5343"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_19_0_4_28c0145_1661415915606_89454_5153" name="" visibility="public" client="_19_0_4_28c0145_1661415823961_188877_4920" supplier="_19_0_4_28c0145_1661415904457_946947_5131" deployedArtifact="_19_0_4_28c0145_1661415904457_946947_5131"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_28c0145_1661415830776_955683_4948" name="Server3" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416162031_818629_5319" name="" visibility="private" type="_19_0_4_28c0145_1661416150314_558299_5273" association="_19_0_4_28c0145_1661416162030_573060_5317"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_19_0_4_28c0145_1661416012177_513229_5239" name="" visibility="public" client="_19_0_4_28c0145_1661415830776_955683_4948" supplier="_19_0_4_28c0145_1661416003081_971899_5217" deployedArtifact="_19_0_4_28c0145_1661416003081_971899_5217"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_28c0145_1661415904457_946947_5131" name="BookingSystem" visibility="public" fileName="">
+        <manifestation xmi:type="uml:Manifestation" xmi:id="_19_0_4_28c0145_1661415933834_863398_5159" name="" visibility="public" client="_19_0_4_28c0145_1661415904457_946947_5131" supplier="_19_0_4_28c0145_1661415893721_430023_5100" utilizedElement="_19_0_4_28c0145_1661415893721_430023_5100"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_28c0145_1661415944985_96127_5161" name="BusinessTripManagement" visibility="public" fileName="">
+        <manifestation xmi:type="uml:Manifestation" xmi:id="_19_0_4_28c0145_1661415972107_866951_5187" name="" visibility="public" client="_19_0_4_28c0145_1661415944985_96127_5161" supplier="_19_0_4_28c0145_1661415869790_148546_5038" utilizedElement="_19_0_4_28c0145_1661415869790_148546_5038"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_28c0145_1661415976870_601717_5189" name="Exporter" visibility="public" fileName="">
+        <manifestation xmi:type="uml:Manifestation" xmi:id="_19_0_4_28c0145_1661415994334_765173_5215" name="" visibility="public" client="_19_0_4_28c0145_1661415976870_601717_5189" supplier="_19_0_4_28c0145_1661415882553_543371_5069" utilizedElement="_19_0_4_28c0145_1661415882553_543371_5069"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_28c0145_1661416003081_971899_5217" name="PaymentSystem" visibility="public" fileName="">
+        <manifestation xmi:type="uml:Manifestation" xmi:id="_19_0_4_28c0145_1661416024109_463617_5243" name="" visibility="public" client="_19_0_4_28c0145_1661416003081_971899_5217" supplier="_19_0_4_28c0145_1661415859561_684565_5007" utilizedElement="_19_0_4_28c0145_1661415859561_684565_5007"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_19_0_4_28c0145_1661416033967_705630_5245" name="TripDB" visibility="public" fileName="">
+        <manifestation xmi:type="uml:Manifestation" xmi:id="_19_0_4_28c0145_1661416049308_692422_5271" name="" visibility="public" client="_19_0_4_28c0145_1661416033967_705630_5245" supplier="_19_0_4_28c0145_1661415849233_210974_4976" utilizedElement="_19_0_4_28c0145_1661415849233_210974_4976"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_4_28c0145_1661416150314_558299_5273" name="LanConnection" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416159977_619188_5305" name="" visibility="private" type="_19_0_4_28c0145_1661415810935_873192_4864" association="_19_0_4_28c0145_1661416159976_522877_5304"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416162030_597863_5318" name="" visibility="private" type="_19_0_4_28c0145_1661415830776_955683_4948" association="_19_0_4_28c0145_1661416162030_573060_5317"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416164825_586167_5331" name="" visibility="private" type="_19_0_4_28c0145_1661415818596_861111_4892" association="_19_0_4_28c0145_1661416164825_583133_5330"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_4_28c0145_1661416166656_360327_5344" name="" visibility="private" type="_19_0_4_28c0145_1661415823961_188877_4920" association="_19_0_4_28c0145_1661416166656_840380_5343"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_28c0145_1661416159976_522877_5304" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661416159977_619188_5305 _19_0_4_28c0145_1661416159977_747325_5306"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_28c0145_1661416162030_573060_5317" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661416162030_597863_5318 _19_0_4_28c0145_1661416162031_818629_5319"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_28c0145_1661416164825_583133_5330" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661416164825_586167_5331 _19_0_4_28c0145_1661416164826_381281_5332"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_19_0_4_28c0145_1661416166656_840380_5343" name="" visibility="public" memberEnd="_19_0_4_28c0145_1661416166656_360327_5344 _19_0_4_28c0145_1661416166656_284447_5345"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qNaqQCRpEe2YAYX20SsiUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qNaqQSRpEe2YAYX20SsiUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_dYZGQOI-EeKRk-i8_Z91aQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qNcfcCRpEe2YAYX20SsiUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qNcfcSRpEe2YAYX20SsiUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HLAM"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qNdGgCRpEe2YAYX20SsiUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qNdGgSRpEe2YAYX20SsiUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_AnalysisModel/GQAM"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_4bV20APMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mFC6YDT2Ee2xx5PR3PqFAw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFHL0DT2Ee2xx5PR3PqFAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Core"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_DchGAOSiEeKuSu-I2xDxSA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mFJBADT2Ee2xx5PR3PqFAw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFJoEDT2Ee2xx5PR3PqFAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Redundancy"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_9t6vAOSiEeKuSu-I2xDxSA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mFK2MDT2Ee2xx5PR3PqFAw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFK2MTT2Ee2xx5PR3PqFAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Threats"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_G1-xoOShEeKuSu-I2xDxSA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mFMEUDT2Ee2xx5PR3PqFAw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFMEUTT2Ee2xx5PR3PqFAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Maintenance"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_rsXqkOShEeKuSu-I2xDxSA"/>
+    </profileApplication>
+  </uml:Model>
+  <GQAM:GaScenario xmi:id="_uZlIsCRpEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417124227_188869_5485" steps="_-aRvcCd6Ee2UnNYY5hBpsQ __9WEsCd6Ee2UnNYY5hBpsQ">
+    <throughput>0.483983</throughput>
+  </GQAM:GaScenario>
+  <GQAM:GaScenario xmi:id="_uZlIsCRpEe2YAYX20SsiUB" base_NamedElement="_19_0_4_28c0145_1661417592374_491379_5695" steps="_E9dv4CRrEe2YAYX20SsiUA _3-k5ADT8Ee2xx5PR3PqFAw _9eNxgDT8Ee2xx5PR3PqFAw">
+    <throughput>0.265642</throughput>
+  </GQAM:GaScenario>
+  <GQAM:GaScenario xmi:id="_uZlIsCRpEe2YAYX20SsiUC" base_NamedElement="_19_0_4_28c0145_1661417776268_687908_5823" steps="_JXCYMCRrEe2YAYX20SsiUA _MF3V8CRrEe2YAYX20SsiUA _Nuk8MDWuEe2xx5PR3PqFAw">
+    <throughput>0.231673</throughput>
+  </GQAM:GaScenario>
+  <GQAM:GaScenario xmi:id="_uZlIsCRpEe2YAYX20SsiUD" base_NamedElement="_19_0_4_28c0145_1661417867720_677982_5974" steps="_iPgtoCRrEe2YAYX20SsiUA _mMVvkCRrEe2YAYX20SsiUA">
+    <throughput>0.0406916</throughput>
+  </GQAM:GaScenario>
+  <GQAM:GaScenario xmi:id="_uZlIsCRpEe2YAYX20SsiUE" base_NamedElement="_19_0_4_28c0145_1661417995767_345557_6142" steps="_vrOE0CRrEe2YAYX20SsiUA _yt0TICRrEe2YAYX20SsiUA _29pJkCRrEe2YAYX20SsiUA _5Jy4ECRrEe2YAYX20SsiUA _72GtUCRrEe2YAYX20SsiUA _-rRjoCRrEe2YAYX20SsiUA __3pQICRrEe2YAYX20SsiUA">
+    <throughput>0.007543</throughput>
+  </GQAM:GaScenario>
+  <GQAM:GaStep xmi:id="_E9dv4CRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417738109_685808_5804" base_Message="_19_0_4_28c0145_1661417738109_685808_5804" scenario="_uZlIsCRpEe2YAYX20SsiUB">
+    <hostDemand>3</hostDemand>
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_JXCYMCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417818737_730838_5937" base_Message="_19_0_4_28c0145_1661417818737_730838_5937" scenario="_uZlIsCRpEe2YAYX20SsiUC">
+    <hostDemand>5</hostDemand>
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_MF3V8CRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417831179_77662_5947" base_Message="_19_0_4_28c0145_1661417831179_77662_5947" scenario="_uZlIsCRpEe2YAYX20SsiUC">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_iPgtoCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417919965_371249_6100" base_Message="_19_0_4_28c0145_1661417919965_371249_6100" scenario="_uZlIsCRpEe2YAYX20SsiUD">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_mMVvkCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661417929814_10934_6110" base_Message="_19_0_4_28c0145_1661417929814_10934_6110" rep="10" scenario="_uZlIsCRpEe2YAYX20SsiUD">
+    <hostDemand>2.540</hostDemand>
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_vrOE0CRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661418068358_66715_6325" base_Message="_19_0_4_28c0145_1661418068358_66715_6325" prob="0.9" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_yt0TICRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661418085786_804348_6335" base_Message="_19_0_4_28c0145_1661418085786_804348_6335" prob="0.72" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_29pJkCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661418136578_579337_6369" base_Message="_19_0_4_28c0145_1661418136578_579337_6369" prob="0.72" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_5Jy4ECRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661418115012_580119_6352" base_Message="_19_0_4_28c0145_1661418115012_580119_6352" prob="0.18" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_72GtUCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661418159249_880091_6378" base_Message="_19_0_4_28c0145_1661418159249_880091_6378" prob="0.18" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_-rRjoCRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661425640108_359603_6461" base_Message="_19_0_4_28c0145_1661425640108_359603_6461" prob="0.1" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="__3pQICRrEe2YAYX20SsiUA" base_NamedElement="_19_0_4_28c0145_1661425816003_407708_6471" base_Message="_19_0_4_28c0145_1661425816003_407708_6471" prob="0.1" scenario="_uZlIsCRpEe2YAYX20SsiUE">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaExecHost xmi:id="_4IWdoCR1Ee2cK8H33v-7QA" base_Classifier="_19_0_4_28c0145_1661415810935_873192_4864" speedFactor="0.9">
+    <utilization>0.998269</utilization>
+  </GQAM:GaExecHost>
+  <GQAM:GaExecHost xmi:id="_9dRT4CR1Ee2cK8H33v-7QA" base_Classifier="_19_0_4_28c0145_1661415818596_861111_4892" speedFactor="0.9">
+    <utilization>0.0577845</utilization>
+  </GQAM:GaExecHost>
+  <GQAM:GaExecHost xmi:id="_-VLzUCR1Ee2cK8H33v-7QA" base_Classifier="_19_0_4_28c0145_1661415823961_188877_4920" speedFactor="0.9">
+    <utilization>0.261605</utilization>
+  </GQAM:GaExecHost>
+  <GQAM:GaExecHost xmi:id="__Nbp8CR1Ee2cK8H33v-7QA" base_Classifier="_19_0_4_28c0145_1661415830776_955683_4948" speedFactor="0.9">
+    <utilization>0.556762</utilization>
+  </GQAM:GaExecHost>
+  <HLAM:RtUnit xmi:id="_qnNl4CUPEe2UnNYY5hBpsQ" base_BehavioredClassifier="_19_0_4_28c0145_1661415810935_873192_4864"/>
+  <HLAM:RtUnit xmi:id="_rkTgQCUPEe2UnNYY5hBpsQ" base_BehavioredClassifier="_19_0_4_28c0145_1661415818596_861111_4892"/>
+  <HLAM:RtUnit xmi:id="_sUTZ0CUPEe2UnNYY5hBpsQ" base_BehavioredClassifier="_19_0_4_28c0145_1661415823961_188877_4920"/>
+  <HLAM:RtUnit xmi:id="_tzUVgCUPEe2UnNYY5hBpsQ" base_BehavioredClassifier="_19_0_4_28c0145_1661415830776_955683_4948"/>
+  <GQAM:GaExecHost xmi:id="_vQBkECUPEe2UnNYY5hBpsQ" base_Classifier="_19_0_4_28c0145_1661416150314_558299_5273"/>
+  <HLAM:RtUnit xmi:id="_vQGckCUPEe2UnNYY5hBpsQ" base_BehavioredClassifier="_19_0_4_28c0145_1661416150314_558299_5273"/>
+  <GQAM:GaWorkloadEvent xmi:id="_dYBQoCUjEe2UnNYY5hBpsQ" pattern="closed:20" base_NamedElement="_19_0_4_28c0145_1661417289788_315962_5555"/>
+  <GQAM:GaWorkloadEvent xmi:id="_fHqpUCUjEe2UnNYY5hBpsQ" pattern="closed:10" base_NamedElement="_19_0_4_28c0145_1661417696780_564963_5749"/>
+  <GQAM:GaWorkloadEvent xmi:id="_hDFNICUjEe2UnNYY5hBpsQ" pattern="closed:10" base_NamedElement="_19_0_4_28c0145_1661417799331_336084_5877"/>
+  <GQAM:GaWorkloadEvent xmi:id="_iuzvICUjEe2UnNYY5hBpsQ" pattern="closed:10" base_NamedElement="_19_0_4_28c0145_1661417896169_332276_6028"/>
+  <GQAM:GaWorkloadEvent xmi:id="_k7OjYCUjEe2UnNYY5hBpsQ" pattern="closed:10" base_NamedElement="_19_0_4_28c0145_1661418017980_413397_6196"/>
+  <GQAM:GaStep xmi:id="_-aRvcCd6Ee2UnNYY5hBpsQ" base_NamedElement="_19_0_3_28c0145_1661445129020_638464_5414" base_Message="_19_0_3_28c0145_1661445129020_638464_5414" scenario="_uZlIsCRpEe2YAYX20SsiUA">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="__9WEsCd6Ee2UnNYY5hBpsQ" base_NamedElement="_19_0_3_28c0145_1661445300692_265855_5437" base_Message="_19_0_3_28c0145_1661445300692_265855_5437" scenario="_uZlIsCRpEe2YAYX20SsiUA">
+    <respT></respT>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_BMqXgCd7Ee2UnNYY5hBpsQ" base_NamedElement="_19_0_3_28c0145_1661445545062_706241_5463" base_Message="_19_0_3_28c0145_1661445545062_706241_5463" steps="_BMqXgCd7Ee2UnNYY5hBpsQ" scenario="_BMqXgCd7Ee2UnNYY5hBpsQ">
+    <respT></respT>
+  </GQAM:GaStep>
+  <Core:DaComponent xmi:id="_qfoPUDT2Ee2xx5PR3PqFAw" base_Classifier="_19_0_4_28c0145_1661415849233_210974_4976">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_sLRRwDT2Ee2xx5PR3PqFAw">
+      <occurrenceProb>0.00010</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+  <Core:DaComponent xmi:id="_PYbjEDT3Ee2xx5PR3PqFAw" base_Classifier="_19_0_4_28c0145_1661415893721_430023_5100">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_SVLoEDT3Ee2xx5PR3PqFAw"/>
+  </Core:DaComponent>
+  <GQAM:GaStep xmi:id="_3-k5ADT8Ee2xx5PR3PqFAw" base_NamedElement="_CoODIDT7Ee2xx5PR3PqFAw" base_Message="_CoODIDT7Ee2xx5PR3PqFAw" prob="0.60" scenario="_uZlIsCRpEe2YAYX20SsiUB">
+    <hostDemand>4</hostDemand>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_9eNxgDT8Ee2xx5PR3PqFAw" base_NamedElement="_AAlZ4DT4Ee2xx5PR3PqFAw" base_Message="_AAlZ4DT4Ee2xx5PR3PqFAw" prob="0.4" scenario="_uZlIsCRpEe2YAYX20SsiUB">
+    <hostDemand>3</hostDemand>
+  </GQAM:GaStep>
+  <GQAM:GaStep xmi:id="_Nuk8MDWuEe2xx5PR3PqFAw" base_NamedElement="_19_0_3_28c0145_1661441170977_194093_5068" scenario="_uZlIsCRpEe2YAYX20SsiUC">
+    <hostDemand>1.5</hostDemand>
+  </GQAM:GaStep>
+  <Core:DaComponent xmi:id="_ccAZ8DWuEe2xx5PR3PqFAw" base_Classifier="_19_0_4_28c0145_1661415859561_684565_5007">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_dKLHgDWuEe2xx5PR3PqFAw">
+      <occurrenceProb>0.000175</occurrenceProb>
+    </failure>
+  </Core:DaComponent>
+</xmi:XMI>
