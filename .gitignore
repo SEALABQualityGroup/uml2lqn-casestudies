@@ -1,4 +1,6 @@
 target/
 .settings/
 *.lqxo~
-
+*.lqxo
+*.bak
+*.out
