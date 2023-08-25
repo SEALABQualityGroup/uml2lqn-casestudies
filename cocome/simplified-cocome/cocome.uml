@@ -686,11 +686,11 @@
     </failure>
   </Core:DaComponent>
   <HLAM:RtUnit xmi:id="_jn6hUPeEEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608319838623_792193_7470" queueSize="500"/>
-  <HLAM:RtUnit xmi:id="_kautQPejEeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608322856516_142581_7761"/>
-  <HLAM:RtUnit xmi:id="_lngCYPejEeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608456937443_868552_4884"/>
-  <HLAM:RtUnit xmi:id="_my6soPejEeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608456952976_511212_4912"/>
-  <HLAM:RtUnit xmi:id="_n-S6oPejEeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608456969048_555924_4940"/>
-  <HLAM:RtUnit xmi:id="_pHfXUPejEeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608457570984_61974_4989"/>
-  <HLAM:RtUnit xmi:id="_u6hOcPe6EeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608463033514_144762_6270"/>
-  <HLAM:RtUnit xmi:id="_wY9iYPe6EeyYzOto-kDOxA" base_BehavioredClassifier="_19_0_4_6590219_1608463450358_752238_6342"/>
+  <HLAM:RtUnit xmi:id="_kautQPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608322856516_142581_7761" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_lngCYPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608456937443_868552_4884" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_my6soPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608456952976_511212_4912" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_n-S6oPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608456969048_555924_4940" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_pHfXUPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608457570984_61974_4989" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_u6hOcPe6EeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608463033514_144762_6270" queueSize="500"/>
+  <HLAM:RtUnit xmi:id="_wY9iYPe6EeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608463450358_752238_6342" queueSize="500"/>
 </xmi:XMI>
