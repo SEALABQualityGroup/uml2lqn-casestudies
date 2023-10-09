@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Core="http://com.masdes.dam/profiles/Core/1.0" xmlns:GQAM="http://www.eclipse.org/papyrus/GQAM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://com.masdes.dam/profiles/Core/1.0 http://com.masdes.dam/profiles/DAM/1.0#//Core http://www.eclipse.org/papyrus/GQAM/1 http://www.eclipse.org/papyrus/MARTE/1#//GQAM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//HLAM">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Core="http://com.masdes.dam/profiles/Core/1.0" xmlns:GQAM="http://www.eclipse.org/papyrus/GQAM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:GRM="http://www.eclipse.org/papyrus/GRM/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://com.masdes.dam/profiles/Core/1.0 http://com.masdes.dam/profiles/DAM/1.0#//Core http://www.eclipse.org/papyrus/GQAM/1 http://www.eclipse.org/papyrus/MARTE/1#//GQAM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//HLAM http://www.eclipse.org/papyrus/GRM/1 http://www.eclipse.org/papyrus/MARTE/1#//GRM">
   <uml:Model xmi:id="eee_1045467100313_135436_1" name="cocome" visibility="public" URI="" viewpoint="">
     <packagedElement xmi:type="uml:Package" xmi:id="_19_0_4_6590219_1607905901959_157584_4797" name="dynamic_view" visibility="public" URI="">
       <packagedElement xmi:type="uml:Actor" xmi:id="_19_0_4_6590219_1607905996930_251053_4867" name="Customer" visibility="public"/>
@@ -445,6 +445,12 @@
       </eAnnotations>
       <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_M-E48GEgEe6WUbCtOJws1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M-GHEGEgEe6WUbCtOJws1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//GRM"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_XVWGUAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
   </uml:Model>
   <GQAM:GaScenario xmi:id="_RRGXgEe7EeyCl42b9jYMuQ" base_NamedElement="_19_0_4_6590219_1607906151075_656518_4983" root="_tx5egEe7EeyCl42b9jYMuQ">
     <throughput>3.404476647797593E-4</throughput>
@@ -693,4 +699,28 @@
   <HLAM:RtUnit xmi:id="_pHfXUPejEeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608457570984_61974_4989" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_u6hOcPe6EeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608463033514_144762_6270" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_wY9iYPe6EeyYzOto-kDOxA" memorySize="100" base_BehavioredClassifier="_19_0_4_6590219_1608463450358_752238_6342" queueSize="500"/>
+  <GRM:ResourceUsage xmi:id="_PYGrYGEgEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608319838623_792193_7470">
+    <energy>4.58</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_RyfYQGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608322856516_142581_7761">
+    <energy>3.26</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_UjF3oGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608456937443_868552_4884">
+    <energy>2.31</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_X1T2UGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608456952976_511212_4912">
+    <energy>4</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_bhZtkGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608456969048_555924_4940">
+    <energy>1.25</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_eON5IGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608457570984_61974_4989">
+    <energy>3.12</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_hf_y8GEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608463033514_144762_6270">
+    <energy>2.98</energy>
+  </GRM:ResourceUsage>
+  <GRM:ResourceUsage xmi:id="_j7PtYGEiEe6WUbCtOJws1g" base_NamedElement="_19_0_4_6590219_1608463450358_752238_6342">
+    <energy>3.67</energy>
+  </GRM:ResourceUsage>
 </xmi:XMI>
