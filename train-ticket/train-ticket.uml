@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Core="http://com.masdes.dam/profiles/Core/1.0" xmlns:GQAM="http://www.eclipse.org/papyrus/GQAM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://com.masdes.dam/profiles/Core/1.0 http://com.masdes.dam/profiles/DAM/1.0#//Core http://www.eclipse.org/papyrus/GQAM/1 http://www.eclipse.org/papyrus/MARTE/1#//GQAM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//HLAM">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Complex_Data_Types="http://com.masdes.dam/libraries/Complex_Data_Types/1.0" xmlns:Core="http://com.masdes.dam/profiles/Core/1.0" xmlns:GQAM="http://www.eclipse.org/papyrus/GQAM/1" xmlns:GRM="http://www.eclipse.org/papyrus/GRM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:HwLayout="http://www.eclipse.org/papyrus/HwLayout/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://com.masdes.dam/profiles/Core/1.0 http://com.masdes.dam/profiles/DAM/1.0#//Core http://www.eclipse.org/papyrus/GQAM/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_AnalysisModel/GQAM http://www.eclipse.org/papyrus/GRM/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Foundations/GRM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HLAM http://www.eclipse.org/papyrus/HwLayout/1 http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HRM/HwPhysical/HwLayout">
   <uml:Model xmi:id="_GqZi0P1ZEeqXCcKbME-iLw" name="trainticket">
     <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_28c0145_1587023303315_601271_5069" name="static_view" URI="">
       <packagedElement xmi:type="uml:Component" xmi:id="_19_0_3_28c0145_1587023303315_413787_5073" name="Login">
@@ -285,39 +285,39 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_28c0145_1601138302514_131809_5885" name="" visibility="private" type="_19_0_3_28c0145_1587023303342_620504_5163" association="_19_0_3_28c0145_1601138302513_881650_5883"/>
       </packagedElement>
     </packagedElement>
-    <profileApplication xmi:id="_IHiyAEe7EeyCl42b9jYMuQ">
-      <eAnnotations xmi:id="_IHjZEEe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHiyAEe7EeyCl42b9jYMuQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHjZEEe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#/"/>
       </eAnnotations>
-      <appliedProfile href="pathmap://DAM_PROFILES/DAM.profile.uml#_dYZGQOI-EeKRk-i8_Z91aQ"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_dYZGQOI-EeKRk-i8_Z91aQ"/>
     </profileApplication>
-    <profileApplication xmi:id="_IHlOQEe7EeyCl42b9jYMuQ">
-      <eAnnotations xmi:id="_IHlOQUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHlOQEe7EeyCl42b9jYMuQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHlOQUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Core"/>
       </eAnnotations>
-      <appliedProfile href="pathmap://DAM_PROFILES/DAM.profile.uml#_DchGAOSiEeKuSu-I2xDxSA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_DchGAOSiEeKuSu-I2xDxSA"/>
     </profileApplication>
-    <profileApplication xmi:id="_IHnDcEe7EeyCl42b9jYMuQ">
-      <eAnnotations xmi:id="_IHnDcUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHnDcEe7EeyCl42b9jYMuQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHnDcUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Redundancy"/>
       </eAnnotations>
-      <appliedProfile href="pathmap://DAM_PROFILES/DAM.profile.uml#_9t6vAOSiEeKuSu-I2xDxSA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_9t6vAOSiEeKuSu-I2xDxSA"/>
     </profileApplication>
-    <profileApplication xmi:id="_IHo4oEe7EeyCl42b9jYMuQ">
-      <eAnnotations xmi:id="_IHo4oUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHo4oEe7EeyCl42b9jYMuQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHo4oUe7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Threats"/>
       </eAnnotations>
-      <appliedProfile href="pathmap://DAM_PROFILES/DAM.profile.uml#_G1-xoOShEeKuSu-I2xDxSA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_G1-xoOShEeKuSu-I2xDxSA"/>
     </profileApplication>
-    <profileApplication xmi:id="_IHqGwEe7EeyCl42b9jYMuQ">
-      <eAnnotations xmi:id="_IHqt0Ee7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHqGwEe7EeyCl42b9jYMuQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHqt0Ee7EeyCl42b9jYMuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://com.masdes.dam/profiles/DAM/1.0#//Maintenance"/>
       </eAnnotations>
-      <appliedProfile href="pathmap://DAM_PROFILES/DAM.profile.uml#_rsXqkOShEeKuSu-I2xDxSA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DAM_PROFILES/DAM.profile.uml#_rsXqkOShEeKuSu-I2xDxSA"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_UcBYoAAXEeuEA6QT3zT36g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UcBYoQAXEeuEA6QT3zT36g" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//GQAM"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_AnalysisModel/GQAM"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_4bV20APMEdyuUt-4qHuVvQ"/>
     </profileApplication>
@@ -329,142 +329,154 @@
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kuBJcETCEe2rjvCol1SNKA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kuBwgETCEe2rjvCol1SNKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HLAM"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HLAM"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4mwPMHGhEe6JkKPTbm1P1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4mw2QHGhEe6JkKPTbm1P1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Foundations/GRM"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_XVWGUAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4myEYHGhEe6JkKPTbm1P1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4myEYXGhEe6JkKPTbm1P1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_DesignModel/HRM/HwPhysical/HwLayout"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_uAf6gBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
   </uml:Model>
   <Core:DaComponent xmi:id="_r6mVgA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303315_413787_5073">
-    <failure xmi:id="_-xPrYA_GEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_-xPrYA_GEeuykZ9VOZO6jQ">
       <occurrenceProb>0.04</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_svrjYA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303316_419268_5074">
-    <failure xmi:id="_ILKBEA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_ILKBEA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.052</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_tnptMA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303316_290983_5077">
-    <failure xmi:id="_L5HgkA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_L5HgkA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.02</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_udE5UA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303317_632028_5080">
-    <failure xmi:id="_NrfdIA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_NrfdIA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.015</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_vdsBwA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303317_410650_5081">
-    <failure xmi:id="_PvWLQA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_PvWLQA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.048</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_wNhjQA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303317_736889_5084">
-    <failure xmi:id="_RtaacA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_RtaacA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.035</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_w-peMA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303317_657578_5085">
-    <failure xmi:id="_TQxDkA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_TQxDkA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.029</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_xzI2MA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303318_839751_5088">
-    <failure xmi:id="_VVXYkA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_VVXYkA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.023</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_ypxjQA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303318_178400_5090">
-    <failure xmi:id="_ZAOgwA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_ZAOgwA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.0467</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_zcXd0A_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303319_416569_5092">
-    <failure xmi:id="_b-qAwA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_b-qAwA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.0389</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaComponent xmi:id="_0V-mYA_GEeuykZ9VOZO6jQ" base_Classifier="_19_0_3_28c0145_1587023303319_784517_5095">
-    <failure xmi:id="_eIFycA_HEeuykZ9VOZO6jQ">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_eIFycA_HEeuykZ9VOZO6jQ">
       <occurrenceProb>0.0256</occurrenceProb>
     </failure>
   </Core:DaComponent>
   <Core:DaConnector xmi:id="_GBMkgBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128611750_648452_5444">
-    <failure xmi:id="_IRGxoBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_IRGxoBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.03</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_Ktt-ABCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128626770_184502_5457">
-    <failure xmi:id="_MQTyIBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_MQTyIBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.015</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_OsUhkBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128654617_426371_5470">
-    <failure xmi:id="_U0WPwBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_U0WPwBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.078</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_XF-UIBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128662712_128410_5483">
-    <failure xmi:id="_YZ2W0BCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_YZ2W0BCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.045</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_a-A8sBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128670748_195115_5496">
-    <failure xmi:id="_cPhn4BCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_cPhn4BCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.065</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_enAcoBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128676801_472268_5509">
-    <failure xmi:id="_gOwdkBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_gOwdkBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.074</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_jWcnQBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128680319_421895_5522">
-    <failure xmi:id="_kY90MBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_kY90MBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.015</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_nQDWEBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128702267_979143_5535">
-    <failure xmi:id="_oL1B0BCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_oL1B0BCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.098</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <Core:DaConnector xmi:id="_qfUHYBCDEeuMtYTnnUBDzA" base_Association="_19_0_3_28c0145_1601128712925_380204_5548">
-    <failure xmi:id="_rj1fcBCDEeuMtYTnnUBDzA">
+    <failure xmi:type="Complex_Data_Types:DaFailure" xmi:id="_rj1fcBCDEeuMtYTnnUBDzA">
       <occurrenceProb>0.03</occurrenceProb>
     </failure>
   </Core:DaConnector>
   <GQAM:GaExecHost xmi:id="_XrtAsAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120">
     <utilization>0.000499749</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_Y-BkMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121">
+  <GQAM:GaExecHost xmi:id="_Y-BkMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" speedFactor="3.5">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_Z_j5sAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122">
+  <GQAM:GaExecHost xmi:id="_Z_j5sAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" speedFactor="4">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_bBIEYAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123">
+  <GQAM:GaExecHost xmi:id="_bBIEYAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" speedFactor="2.3">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
   <GQAM:GaExecHost xmi:id="_cCQKMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_dCoCEAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125">
+  <GQAM:GaExecHost xmi:id="_dCoCEAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" speedFactor="2.3">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126">
+  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" speedFactor="4">
     <utilization>0.999498</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_fDd4cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127">
+  <GQAM:GaExecHost xmi:id="_fDd4cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" speedFactor="2.3">
     <utilization>0.0463443</utilization>
   </GQAM:GaExecHost>
   <GQAM:GaExecHost xmi:id="_gDTk0AAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128">
     <utilization>1.1013e-06</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_g9Z1kAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129">
+  <GQAM:GaExecHost xmi:id="_g9Z1kAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" speedFactor="2.3">
     <utilization>0.953656</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_h2c9cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130">
+  <GQAM:GaExecHost xmi:id="_h2c9cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" speedFactor="4">
     <utilization>6.97952e-07</utilization>
   </GQAM:GaExecHost>
   <GQAM:GaScenario xmi:id="_j0hMoAAXEeuEA6QT3zT36g" base_NamedElement="_19_0_3_28c0145_1587023303342_661773_5164" root="_MnDgIAAaEeuEA6QT3zT36g">
@@ -533,4 +545,48 @@
   <HLAM:RtUnit xmi:id="_AI6i4ETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303335_201039_5128" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_A9pygETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303336_130556_5129" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_BktygETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303336_242093_5130" queueSize="500"/>
+  <HwLayout:HwComponent xmi:id="_9wMOMHGhEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120" price="1000"/>
+  <GRM:ResourceUsage xmi:id="_9wRtwHGhEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_416511_5120">
+    <energy>1.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_KF60wHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" price="2500"/>
+  <GRM:ResourceUsage xmi:id="_KGBicHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_208325_5121">
+    <energy>3.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_RygF8HGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" price="6000"/>
+  <GRM:ResourceUsage xmi:id="_RyjJQHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_486091_5122">
+    <energy>6.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_Y9NZIHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" price="2500"/>
+  <GRM:ResourceUsage xmi:id="_Y9SRoHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_995617_5123">
+    <energy>3.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_gtrEwHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124" price="1000"/>
+  <GRM:ResourceUsage xmi:id="_gtvWMHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_235841_5124">
+    <energy>1.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_muleUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" price="2500"/>
+  <GRM:ResourceUsage xmi:id="_murk8HGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_181968_5125">
+    <energy>3.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_tD6osHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" price="6000"/>
+  <GRM:ResourceUsage xmi:id="_tEAvUHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_649802_5126">
+    <energy>6.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_2cceUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" price="2500"/>
+  <GRM:ResourceUsage xmi:id="_2cgvwHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_269710_5127">
+    <energy>3.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="__HXAAHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128" price="1000"/>
+  <GRM:ResourceUsage xmi:id="__HeUwHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_201039_5128">
+    <energy>1.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_GLPScHGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" price="2500"/>
+  <GRM:ResourceUsage xmi:id="_GLUyAHGjEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303336_130556_5129">
+    <energy>3.5</energy>
+  </GRM:ResourceUsage>
+  <HwLayout:HwComponent xmi:id="_MC_I8HGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" price="6000"/>
+  <GRM:ResourceUsage xmi:id="_MDEBcHGjEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303336_242093_5130">
+    <energy>6.5</energy>
+  </GRM:ResourceUsage>
 </xmi:XMI>
