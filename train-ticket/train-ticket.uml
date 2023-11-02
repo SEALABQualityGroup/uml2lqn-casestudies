@@ -446,37 +446,37 @@
       <occurrenceProb>0.03</occurrenceProb>
     </failure>
   </Core:DaConnector>
-  <GQAM:GaExecHost xmi:id="_XrtAsAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120">
+  <GQAM:GaExecHost xmi:id="_XrtAsAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120" speedFactor="5">
     <utilization>0.000499749</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_Y-BkMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" speedFactor="3.5">
+  <GQAM:GaExecHost xmi:id="_Y-BkMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" speedFactor="5">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_Z_j5sAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" speedFactor="4">
+  <GQAM:GaExecHost xmi:id="_Z_j5sAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" speedFactor="3">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_bBIEYAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" speedFactor="2.3">
+  <GQAM:GaExecHost xmi:id="_bBIEYAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" speedFactor="3">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_cCQKMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124">
+  <GQAM:GaExecHost xmi:id="_cCQKMAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124" speedFactor="1">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_dCoCEAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" speedFactor="2.3">
+  <GQAM:GaExecHost xmi:id="_dCoCEAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" speedFactor="5">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" speedFactor="4">
+  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" speedFactor="5">
     <utilization>0.999498</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_fDd4cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" speedFactor="2.3">
+  <GQAM:GaExecHost xmi:id="_fDd4cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" speedFactor="3">
     <utilization>0.0463443</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_gDTk0AAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128">
+  <GQAM:GaExecHost xmi:id="_gDTk0AAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128" speedFactor="1">
     <utilization>1.1013e-06</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_g9Z1kAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" speedFactor="2.3">
+  <GQAM:GaExecHost xmi:id="_g9Z1kAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" speedFactor="5">
     <utilization>0.953656</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_h2c9cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" speedFactor="4">
+  <GQAM:GaExecHost xmi:id="_h2c9cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" speedFactor="5">
     <utilization>6.97952e-07</utilization>
   </GQAM:GaExecHost>
   <GQAM:GaScenario xmi:id="_j0hMoAAXEeuEA6QT3zT36g" base_NamedElement="_19_0_3_28c0145_1587023303342_661773_5164" root="_MnDgIAAaEeuEA6QT3zT36g">
@@ -545,48 +545,48 @@
   <HLAM:RtUnit xmi:id="_AI6i4ETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303335_201039_5128" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_A9pygETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303336_130556_5129" queueSize="500"/>
   <HLAM:RtUnit xmi:id="_BktygETEEe2rjvCol1SNKA" memorySize="100" base_BehavioredClassifier="_19_0_3_28c0145_1587023303336_242093_5130" queueSize="500"/>
-  <HwLayout:HwComponent xmi:id="_9wMOMHGhEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120" price="1000"/>
+  <HwLayout:HwComponent xmi:id="_9wMOMHGhEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_416511_5120" price="4"/>
   <GRM:ResourceUsage xmi:id="_9wRtwHGhEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_416511_5120">
-    <energy>1.5</energy>
+    <energy>4</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_KF60wHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" price="2500"/>
+  <HwLayout:HwComponent xmi:id="_KF60wHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_208325_5121" price="3"/>
   <GRM:ResourceUsage xmi:id="_KGBicHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_208325_5121">
-    <energy>3.5</energy>
+    <energy>3</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_RygF8HGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" price="6000"/>
+  <HwLayout:HwComponent xmi:id="_RygF8HGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303334_486091_5122" price="5"/>
   <GRM:ResourceUsage xmi:id="_RyjJQHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303334_486091_5122">
-    <energy>6.5</energy>
+    <energy>3</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_Y9NZIHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" price="2500"/>
+  <HwLayout:HwComponent xmi:id="_Y9NZIHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_995617_5123" price="5"/>
   <GRM:ResourceUsage xmi:id="_Y9SRoHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_995617_5123">
-    <energy>3.5</energy>
+    <energy>5</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_gtrEwHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124" price="1000"/>
+  <HwLayout:HwComponent xmi:id="_gtrEwHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_235841_5124" price="5"/>
   <GRM:ResourceUsage xmi:id="_gtvWMHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_235841_5124">
-    <energy>1.5</energy>
+    <energy>5</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_muleUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" price="2500"/>
+  <HwLayout:HwComponent xmi:id="_muleUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" price="4"/>
   <GRM:ResourceUsage xmi:id="_murk8HGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_181968_5125">
-    <energy>3.5</energy>
+    <energy>4</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_tD6osHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" price="6000"/>
+  <HwLayout:HwComponent xmi:id="_tD6osHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" price="3"/>
   <GRM:ResourceUsage xmi:id="_tEAvUHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_649802_5126">
-    <energy>6.5</energy>
+    <energy>3</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_2cceUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" price="2500"/>
+  <HwLayout:HwComponent xmi:id="_2cceUHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" price="5"/>
   <GRM:ResourceUsage xmi:id="_2cgvwHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_269710_5127">
-    <energy>3.5</energy>
+    <energy>5</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="__HXAAHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128" price="1000"/>
+  <HwLayout:HwComponent xmi:id="__HXAAHGiEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303335_201039_5128" price="5"/>
   <GRM:ResourceUsage xmi:id="__HeUwHGiEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303335_201039_5128">
-    <energy>1.5</energy>
+    <energy>5</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_GLPScHGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" price="2500"/>
+  <HwLayout:HwComponent xmi:id="_GLPScHGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_130556_5129" price="4"/>
   <GRM:ResourceUsage xmi:id="_GLUyAHGjEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303336_130556_5129">
-    <energy>3.5</energy>
+    <energy>4</energy>
   </GRM:ResourceUsage>
-  <HwLayout:HwComponent xmi:id="_MC_I8HGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" price="6000"/>
+  <HwLayout:HwComponent xmi:id="_MC_I8HGjEe6JkKPTbm1P1g" base_Classifier="_19_0_3_28c0145_1587023303336_242093_5130" price="3"/>
   <GRM:ResourceUsage xmi:id="_MDEBcHGjEe6JkKPTbm1P1g" base_NamedElement="_19_0_3_28c0145_1587023303336_242093_5130">
-    <energy>6.5</energy>
+    <energy>3</energy>
   </GRM:ResourceUsage>
 </xmi:XMI>
