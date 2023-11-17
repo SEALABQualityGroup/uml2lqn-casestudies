@@ -113,7 +113,7 @@
         <ownedAttribute xmi:id="_19_0_3_28c0145_1601128702267_218683_5536" name="" visibility="private" type="_19_0_3_28c0145_1587023303336_130556_5129" association="_19_0_3_28c0145_1601128702267_979143_5535"/>
         <deployment xmi:id="_19_0_3_28c0145_1587023303358_49929_5259" name="" client="_19_0_3_28c0145_1587023303335_181968_5125" supplier="_19_0_3_28c0145_1587023303337_4562_5137" deployedArtifact="_19_0_3_28c0145_1587023303337_4562_5137"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_3_28c0145_1587023303335_649802_5126" name="container-order-other_t2.micro">
+      <packagedElement xmi:type="uml:Node" xmi:id="_19_0_3_28c0145_1587023303335_649802_5126" name="container-order-other_t2.medium">
         <ownedAttribute xmi:id="_19_0_3_28c0145_1601128611750_855742_5446" name="" visibility="private" type="_19_0_3_28c0145_1587023303334_416511_5120" association="_19_0_3_28c0145_1601128611750_648452_5444"/>
         <deployment xmi:id="_19_0_3_28c0145_1587023303358_581272_5261" name="" client="_19_0_3_28c0145_1587023303335_649802_5126" supplier="_19_0_3_28c0145_1587023303337_583920_5135" deployedArtifact="_19_0_3_28c0145_1587023303337_583920_5135"/>
       </packagedElement>
@@ -464,7 +464,7 @@
   <GQAM:GaExecHost xmi:id="_dCoCEAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_181968_5125" speedFactor="3.4815626">
     <utilization>0.0</utilization>
   </GQAM:GaExecHost>
-  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" speedFactor="1.16725">
+  <GQAM:GaExecHost xmi:id="_eBZ-gAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_649802_5126" speedFactor="2.3345">
     <utilization>0.999498</utilization>
   </GQAM:GaExecHost>
   <GQAM:GaExecHost xmi:id="_fDd4cAAXEeuEA6QT3zT36g" base_Classifier="_19_0_3_28c0145_1587023303335_269710_5127" speedFactor="1.16725">
